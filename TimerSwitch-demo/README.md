@@ -5,7 +5,7 @@ The only 'processor' is the Java Virtual Machine embedded into the TapNLink modu
 
 >> Before this project you must know the IoTize tools with [Getting Started](http://docs.iotize.com/GettingStarted/).
 
-To find the project on GitHub, [it's here](https://github.com/iotize-sas/TimerSwitch-demo) !
+To find the project on GitHub, [it's here](https://github.com/iotize-sas/Open-Projects/tree/main/TimerSwitch-demo) !
 
 It's composed of 4 folder:
 
@@ -76,7 +76,7 @@ The relay element switch ON/OFF the device current.
 
 The `Java` code embedded in the `JVM` will allow us to make a `onCheck()` method call every time (This time is defined in a `TapNLinkVar` constructor). In this onCheck() method, by verifying that the passed `id` corresponds to the desired one, we will be able to perform data recovery tasks, also `TapNLinkVar` value updates or send MQTT message.
 
-- To find more `Java` code information, [it's here](https://github.com/iotize-sas/TimerSwitch-demo/blob/master/doc/Java_code/Java_code.md) !
+- To find more `Java` code information, [it's here](https://github.com/iotize-sas/Open-Projects/tree/main/TimerSwitch-demo/doc/Java_code/Java_code.md) !
 
 ## IoTize Studio
 
@@ -90,7 +90,7 @@ The `Java` code embedded in the `JVM` will allow us to make a `onCheck()` method
 
 ## Running the 'TimerSwitch' app
 
-- Because the App has not been published onto the stores, you have to install it manually, see [it's here](https://github.com/iotize-sas/TimerSwitch-demo/blob/master/app_generated/TimerSwitch.apk).
+- Because the App has not been published onto the stores, you have to install it manually, see [it's here](https://github.com/iotize-sas/Open-Projects/tree/main/TimerSwitch-demo/app_generated/TimerSwitch.apk).
 - Once your circuit is properly connect, and your TapNLink configured, you can launch the mobile app. The fastest way consists in approach your mobile phone (with NFC enabled) to the plastic enclosure. The NFC will launch the app and connect automatically to the TapNLink. 
 - Thanks to the `TapNLink`you can now monitor the relay status, that have been stored into the module. 
 

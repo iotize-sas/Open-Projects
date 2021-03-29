@@ -5,7 +5,7 @@ This article presents a simple connected sensor temp based on a TapNLink module.
 
 >> Note: if you wish to understand how works TapNLink and the associated tools (IoTize Studio), see [Getting Started](http://docs.iotize.com/GettingStarted/).
 
-To find the project on GitHub, [it's here](https://github.com/iotize-sas/ThermosTap-demo) !
+To find the project on GitHub, [it's here](https://github.com/iotize-sas/Open-Projects/tree/main/ThermosTap-demo) !
 
 >> This project has realised with REVA card for this example. Also, you can easily craft your circuit with main components.
 
@@ -49,7 +49,7 @@ The led switch has define by the Pin A2, this one has directly connected to LED2
 
 In the `Java` code executed by the `JVM`, the `onCheck()` method is call periodically (the period is specify in the `TapNLinkVar` constructor). In this method, we get an image of the power by considering the differences of the pulses counts during the elapsed time. 
 
-- To find more `Java` code information, [it's here](https://github.com/iotize-sas/ThermosTap-demo/blob/master/doc/Java_code/Java_code.md) !
+- To find more `Java` code information, [it's here](https://github.com/iotize-sas/Open-Projects/tree/main/ThermosTap-demo/doc/Java_code/Java_code.md) !
 
 ## IoTize Studio
 
@@ -64,7 +64,7 @@ In the `Java` code executed by the `JVM`, the `onCheck()` method is call periodi
 
 ## Running the 'ThermosTap' app
 
-- Because the App has not been published onto the stores, you have to install it manually, see [it's here](https://github.com/iotize-sas/ThermosTap-demo/blob/master/app_generated/ThermosTap.apk).
+- Because the App has not been published onto the stores, you have to install it manually, see [it's here](https://github.com/iotize-sas/Open-Projects/tree/main/ThermosTap-demo/app_generated/ThermosTap.apk).
 - Once your circuit is properly connect, and your TapNLink configured, you can launch the mobile app. The fastest way consists in approach your mobile phone (with NFC enabled) to the plastic enclosure. The NFC will launch the app and connect automatically to the TapNLink. 
 - Thanks to the `TapNLink`you can now monitor the target and current temperature. 
 

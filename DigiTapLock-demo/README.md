@@ -76,7 +76,7 @@ The red cable will be replaced by a button, to ask if access has possible.
 
 The `Java` code embedded in the `JVM` will allow us to make a `onCheck()` method call every time (This time is defined in a `TapNLinkVar` constructor). In this onCheck() method, by verifying that the passed `id` corresponds to the desired one, we will be able to perform data recovery tasks, also `TapNLinkVar` value updates or send MQTT message.
 
-- To find more `Java` code information, [it's here](https://github.com/iotize-sas/DigiTapLock-demo/blob/master/doc/Java_code/Java_code.md) !
+- To find more `Java` code information, [it's here](https://github.com/iotize-sas/DigiTapLock-demo/doc/Java_code/Java_code.md) !
 
 ## IoTize Studio
 
@@ -90,7 +90,7 @@ The `Java` code embedded in the `JVM` will allow us to make a `onCheck()` method
 
 ## Running the 'DigiTapLock' app
 
-- Because the App has not been published onto the stores, you have to install it manually, see [it's here](https://github.com/iotize-sas/DigiTapLock-demo/blob/master/app_generated/DigiTapLock.apk).
+- Because the App has not been published onto the stores, you have to install it manually, see [it's here](https://github.com/iotize-sas/DigiTapLock-demo/app_generated/DigiTapLock.apk).
 - Once your circuit is properly connect, and your TapNLink configured, you can launch the mobile app. The fastest way consists in approach your mobile phone (with NFC enabled) to the plastic enclosure. The NFC will launch the app and connect automatically to the TapNLink. 
 
 <p align="center">

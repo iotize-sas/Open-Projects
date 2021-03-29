@@ -4,7 +4,7 @@ This article presents a simple connected Wattmeter based on a TapNLink module. T
 
 >> Note: if you wish to understand how works TapNLink and the associated tools (IoTize Studio), see [Getting Started](http://docs.iotize.com/GettingStarted/).
 
-To find the project on GitHub, [it's here](https://github.com/iotize-sas/wattMeter-demo) !
+To find the project on GitHub, [it's here](https://github.com/iotize-sas/Open-Projects/tree/main/WattTap-demo) !
 
 It's composed of 4 folder:
 
@@ -105,7 +105,7 @@ The selection of current vs voltage is done by `SEL` connected to the `TARGET_SW
 
 In the `Java` code executed by the `JVM`, the `onCheck()` method is called periodically (the period is specified in the `TapNLinkVar` constructor). In this method, we get an image of the power by considering the differences of the pulses counts during the elapsed time. 
 
-- To find more `Java` code information, [it's here](https://github.com/iotize-sas/wattMeter-demo/blob/master/doc/Java_code/Java_code.md) !
+- To find more `Java` code information, [it's here](https://github.com/iotize-sas/Open-Projects/tree/main/WattTap-demo/doc/Java_code/Java_code.md) !
 
 
 ## IoTize Studio
@@ -122,7 +122,7 @@ In the `Java` code executed by the `JVM`, the `onCheck()` method is called perio
 
 ## Running the 'WattTap' app
 
-- Because the App has not been published onto the stores, you have to install it manually, see [it's here](https://github.com/iotize-sas/wattMeter-demo/blob/master/app_generated/WattTap.apk).
+- Because the App has not been published onto the stores, you have to install it manually, see [it's here](https://github.com/iotize-sas/Open-Projects/tree/main/WattTap-demo/app_generated/WattTap.apk).
 - Once your circuit is properly connected, and your TapNLink configured, you can launch the mobile app. The fastest way consists in approching your mobile phone (with NFC enabled) to the plastic enclosure. The NFC will launch the app and connect automatically to the TapNLink. 
 
 <p align="center">
@@ -213,7 +213,7 @@ You should be login with admin account like calibration change to define update 
 
 ## More information
 
-- To find more information on the creation of this project, [it's here](https://github.com/iotize-sas/wattMeter-demo/blob/master/doc/WattTapDemo.pdf).
+- To find more information on the creation of this project, [it's here](https://github.com/iotize-sas/Open-Projects/tree/main/WattTap-demo/doc/WattTapDemo.pdf).
 
 
 ## WattTap v2
