@@ -94,19 +94,13 @@ The `Java` code embedded in the `JVM` will allow us to make a `onCheck()` method
 - Once your circuit is properly connect, and your TapNLink configured, you can launch the mobile app. The fastest way consists in approach your mobile phone (with NFC enabled) to the plastic enclosure. The NFC will launch the app and connect automatically to the TapNLink. 
 - Thanks to the `TapNLink`you can now monitor the relay status, that have been stored into the module. 
 
-<p align="center">
-<img src="/doc/images/view_1.jpg" width="200">
-</p>
-<p align="center">
-    <em>Viewing the application</em>
-</p>
 
 ## Active mode
 
 The mode definition allows to force an on/off or to set to auto and allow the system to manage its state with the daily setup
 
 <p align="center">
-<img src="doc/images/view.jpg" width="200">
+<img src="doc/images/view_1.jpg" width="200">
 </p>
 <p align="center">
     <em>Define state</em>
