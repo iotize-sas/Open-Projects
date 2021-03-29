@@ -190,15 +190,11 @@ public class ThermosTap {
             // If last temp is lower than mode temperature activa is true
             // If currentPowerState is true, pin is turn ON
             // If currentPowerState is false, pin is turn OFF
-            try {
-                if(currentPowerState) {
-                    pinTurnPowerOnOff.setValue(0x00);
-                } else {
-                    pinTurnPowerOnOff.setValue(0x01);
-                } 
-            } catch (TapNLinkException e) {
-                system.sendMQTTMessage(topic,"Error on method setting set Pin 0x01 or 0x00, error code : " + e.getCode(), 0);
-            }
+            if(currentPowerState) {
+                pinTurnPowerOnOff.setValue(0x00);
+            } else {
+                pinTurnPowerOnOff.setValue(0x01);
+            } 
         }
     }
 
@@ -208,24 +204,20 @@ public class ThermosTap {
      */
     public int getTempByMode(int mode) {
         int tempToSelectMode = 0;
-        try {
-            switch(mode) {
-                case 0x01 :   
-                    // MODE FREE-FROST
-                    tempToSelectMode = freeFrostTemp_varInTap.getValue();
-                    break;
-                case 0x02 :
-                    // MODE ecoTemp_varInTap
-                    tempToSelectMode = ecoTemp_varInTap.getValue();
-                    break;
-                case 0x03 :
-                    // MODE comfortTemp_varInTap
-                    tempToSelectMode = comfortTemp_varInTap.getValue();
-                    break;
-            } 
-        } catch (TapNLinkException e) {
-            system.sendMQTTMessage(topic,"Error on method getTemByMode(), error code : " + e.getCode(), 0);
-        }
+        switch(mode) {
+            case 0x01 :   
+                // MODE FREE-FROST
+                tempToSelectMode = freeFrostTemp_varInTap.getValue();
+                break;
+            case 0x02 :
+                // MODE ecoTemp_varInTap
+                tempToSelectMode = ecoTemp_varInTap.getValue();
+                break;
+            case 0x03 :
+                // MODE comfortTemp_varInTap
+                tempToSelectMode = comfortTemp_varInTap.getValue();
+                break;
+        } 
         return tempToSelectMode;
     }
 

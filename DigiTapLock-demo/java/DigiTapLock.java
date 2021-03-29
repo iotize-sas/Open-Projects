@@ -35,27 +35,38 @@ public class DigiTapLock {
     // -------------------------------------------------
     //  TapNLinkVar, only InTap value (volatile or not)    
     // -------------------------------------------------
+
+    // accessRemaining_varInTap : Define the access time remaining when access has authorized
     public  TapNLinkVarInt                  accessRemaining_varInTap            = new TapNLinkVarInt((short) ACCESS_REMAINING_ID, VariableType.INT32, "accessRemaining", DIGITAL_CODE_CHECK);
+    // digitalCode_varInTap : This var contain the current digital code input
     public  TapNLinkVarInt                  digitalCode_varInTap                = new TapNLinkVarInt((short) DIGITAL_CODE_ID, VariableType.INT32, "digitalCode", DIGITAL_CODE_CHECK);
+    // accessMessage_varInTap : Return the access message (Waiting, Refuse or Accept)
     public  TapNLinkVarInt                  accessMessage_varInTap              = new TapNLinkVarInt((short) 0x08, VariableType.INT8, "errorMessage", BASIC_FREQ_CHECK);
+    // accessCode_varInTap : This tab contains the access code array for each resident
     public  TapNLinkVarIntArray             accessCode_varInTap                 = new TapNLinkVarIntArray((short) ACCESS_CODE_ID, VariableType.INT32, "accessCode", BASIC_FREQ_CHECK, 21);
+    // dailySetup_varInTap : Define for each hour if the button can give access to device or not.
     public  TapNLinkVarByteArray            dailySetup_varInTap                 = new TapNLinkVarByteArray((short) DAILY_SETUP_ID, "dailySetup", QUICK_FREQ_CHECK, 24);
 
 
-    // public  Pin                             pinPressButton                  = new Pin(Pin.TGT_DATA, 0x04, Pin.HIZ);
-    // public  Pin                             pinActivation                   = new Pin(Pin.TGT_CLK, Pin.PP_OUT, Pin.HIZ);
-    public  Pin                             pinActivation                       = new Pin(Pin.PA2, Pin.PP_OUT, Pin.HIZ);
-    public  Pin                             pinPressButton                      = new Pin(Pin.PB3, Pin.ANA, Pin.HIZ);
+    public  Pin                             pinPressButton                      = new Pin(Pin.TGT_DATA, 0x04, Pin.HIZ);
+    public  Pin                             pinActivation                       = new Pin(Pin.TGT_CLK, Pin.PP_OUT, Pin.HIZ);
 
     private byte[]                          date                                = new byte[36];
 
+    // accessInProgress : Define if the current status of the access has open or not
     private boolean                         accessInProgress                    = false;
+    // initDone : Define if the first init has done
     private boolean                         initDone                            = false;
 
+    // currentAccessRemaining : This one count the time remaining after access authorized
     private int                             currentAccessRemaining              = 0;
+    // TheButtonIsPressed : if this value equals 3, then the button has pressed
     private int                             TheButtonIsPressed                  = 0;
+    // defaultValuePinButton. When we start the tap, we get the default value on button to check if this one change.
     private int                             defaultValuePinButton               = 0;
+    // currentRefuseRemaining : This one count the time remaining after access refuse 
     private int                             currentRefuseRemaining              = 0;
+    // currentTimeHour : Define the current hour to define if we can access with button pressed
     private int                             currentTimeHour                     = 0;
 
     TapNLinkSys system;
@@ -72,6 +83,13 @@ public class DigiTapLock {
         }
 
         switch (id) {
+            /**
+             * On id DIGITAL_CODE TapNLinkVar
+             * First time we check if the access has in progress or not and if the digital code has different to 0
+             * Then we compare the digital code with access code list.
+             * A message access has display with this result
+             * The digital code has refresh
+             */
             case DIGITAL_CODE_ID:
                 if(!accessInProgress && (digitalCode_varInTap.getValue() > DEFAULT_DIGITAL_CODE)) {
                     boolean accessResult = false;
@@ -90,6 +108,11 @@ public class DigiTapLock {
                     digitalCode_varInTap.setValue(0x00);
                 }
                 break;
+            /**
+             * On id ACCESS_REMAINING TapNLinkVar
+             * First time we check the current access status
+             * Then we refresh the current remaining time with current status
+             */
             case ACCESS_REMAINING_ID:
                 if(accessInProgress) {
                     currentAccessRemaining++;
