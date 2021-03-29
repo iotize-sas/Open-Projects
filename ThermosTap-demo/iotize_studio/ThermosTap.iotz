@@ -1,0 +1,181 @@
+﻿<?xml version="1.0"?>
+<IOTizeConfiguration Version="2.7.0" Lock="8">
+<GUI_Environment StoreVarInfo="false" UseInternalJVM="true" Locked="false" Autoincrement="false" AutoSyncTime="true" DocVerboseLevel="3" DocLogVerboseLevel="3" DocLogFileName="" AdminPWD="admin" SmartPhoneStoragePath="" />
+<GUI_XAppConfig useServer="yes">
+<GUI_app path="" version="0.0.1" cloudProjectId="thermostap-acmu2" />
+<GUI_layout col="2" mode="One page per bundle" />
+<GUI_logo image="app\resources\icon.png" />
+<GUI_splashScreen image="app\resources\splash.png" />
+<GUI_appTheme primary="16744448" secondary="840168" tertiary="7357695" />
+<GUI_hostProtocols>
+<GUI_nfc enabled="true" energyHarvesting="false" />
+<GUI_ble enabled="true" />
+<GUI_socket enabled="true" rememberLastDevices="true" />
+<GUI_mqtt enabled="true" rememberLastDevices="true" />
+</GUI_hostProtocols>
+<GUI_pages>
+<GUI_TapInfoPage enabled="true" pageTitle="Device Info">
+<GUI_infosn enabled="true" />
+<GUI_infosn />
+<GUI_infofwver enabled="true" />
+<GUI_infofwver />
+<GUI_infocfgver enabled="true" />
+<GUI_infocfgver />
+<GUI_infoappname enabled="true" />
+<GUI_infoappname />
+<items key="serialNumber" />
+<items key="tapFirmwareVersion" />
+<items key="configVersion" />
+<items key="appName" />
+</GUI_TapInfoPage>
+<GUI_AboutPage enabled="false" pageTitle="About" showAppVersion="No" developerName="" appDescription="" />
+<GUI_TargetProtocolConfPage enabled="false" pageTitle="Target Protocol Settings" />
+<GUI_TapSupervisionPage enabled="false" pageTitle="Administration" />
+<GUI_TapConnectivitySettingsPage enabled="true" pageTitle="Connectivity settings" />
+</GUI_pages>
+</GUI_XAppConfig>
+<IOTizeApp Name="ThermosTap" DevIoTizeSN="IoTize00610000101F" InterfaceLock="8" Scram_Hash_It="5000" GUI_Path="$4/com.thermostap.demo" GUI_WebSpePath="" Path="$6/IoTize00610000101F/IoTize00610000101F.html" GUI_TargetType="0" TargetProtocol="DirectIO" GUI_S3Pmode="1" S3Pmode="1" S3PDelay="1" GUI_Modbus_GenerateAddr="yes" TargetProtocolConfDataLen="8" TargetProtocolConfData="0001000a01002580" WebLink="https://www.iotize.com" AAR="com.thermostap.demo" HostProtocol="FFFF" Firmware="1.0.0" Config="1.0.0" NFCPairingMandatory="No" BLEPairingRequest="0" NFCInterruptionLock="0" NFCLogin="0" LowPowerLevel="0" LowPowerHostTimeout="30" JVM_Custom_Code="..\ThermosTap-demo\java\ThermosTap.java" JVM_HeapSize="4">
+<USB_Aliases />
+<LoRa_Info LoRaMode="0" />
+<WIFI_Info Network="Network" ModuleSSID="" Module_AP_SSID="TAP" Module_AP_WEPKey="ABCD1234" ModuleWEPKey="" Cloud_Publish_Topic="" Cloud_Subscribe_Topic="" MQTTRelay_URL="user.cloud.iotize.com" MQTTRelay_Client_ID="1564565" MQTTRelay_Broker_Login="" MQTTRelay_Passwd="" MQTTRelay_Service="1883" Broker_Certificate="" MQTTRelay_Topic_Prefix="" ModuleIPAddress="0.0.0.0" ModuleIPGateway="0.0.0.0" ModuleIPMask="0.0.0.0" Wifi_SSID_Hidden="0" Wifi_WEPKey_Hidden="1" />
+<GUI_Reader Name="" />
+<GUI_ConnectionMode Value="3" />
+<GUI_CryptoMode Value="0" />
+<GUI_MQTT_Info>
+<GUI_MQTTCloudEnable Value="1" />
+<GUI_DevMQTTHostName Name="user.cloud.iotize.com" />
+<GUI_DevMQTTServiceName Name="1883" />
+<GUI_DevMQTT_UID Name="%%UID%%" />
+<GUI_DevMQTT_ClientID Name="IoTize004100000000" />
+<GUI_DevMQTT_Certificate Name="" />
+<GUI_DevMQTT_PrivateKey Name="" />
+<GUI_DevMQTT_Login Name="IoTize004100000000" />
+<GUI_DevMQTT_Password Name="IoTize004100000000_0000000000" />
+<GUI_DevMQTT_BrokerCertificate Name="" />
+<GUI_DevMQTTSelection Value="false" />
+<GUI_DevMQTTTopicAnswer Name="" />
+<GUI_DevMQTTTopicPrefix Name="" />
+<GUI_DevMQTTIBMAPIKey Name="" />
+<GUI_DevMQTTIBMAPIToken Name="" />
+</GUI_MQTT_Info>
+<GUI_DevMQTTHostName Name="user.cloud.iotize.com" />
+<GUI_DevMQTTSelection Value="false" />
+<GUI_DevMQTTServiceName Name="1883" />
+<GUI_DevMQTT_UID Name="%%UID%%" />
+<GUI_DevSocketHostName Name="192.168.20.119" />
+<GUI_DevSocketServiceName Name="2000" />
+<GUI_DevBLEDeviceName Name="&quot;WattTap_0101E ( 70:b3:d5:9c:f0:1f )&quot;" />
+<GUI_DevUARTCOM Port="COM1" />
+<GUI_DevNetkey Name="testnetkey" />
+<GUI_ElfFile PathName="" Description="" />
+<GUI_SVDFile PathName="" />
+<GUI_AppDevServer port="4210" />
+<GUI_HTML Generate="yes" Prefix="HTML_TEST" Home="IoTize00610000101F.html" />
+<GUI_CSSAuto Auto="yes" />
+<GUI_CSSFile PathName="" />
+<GUI_htmlHideLogin Hide="no" />
+<GUI_htmlDigitsFloat Value="3" />
+<CloudServices CloudEnable="2" CloudSendConf="Yes" CloudMqttPeriod="0" CloudUserId="65535">
+<CloudHostName Name="user.cloud.iotize.com" />
+<CloudServiceName Name="1883" />
+<CloudMQTT_UID Name="" />
+<ProductKey_UID Name="IoTize00610000101F_0000000000" />
+<CloudMQTT_USERNAME Name="" />
+<IBMOrgID Name="" />
+<IBMDeviceType Name="" />
+<IBMDeviceID Name="" />
+<IBMDeviceToken Name="" />
+<IBMRootCertificate />
+<AWSCustomEndpoint Name="" />
+<AWSThingName Name="" />
+<DeviceCertificate />
+<DevicePrivateKey />
+<AWSRootCertificate />
+</CloudServices>
+</IOTizeApp>
+<IOTizeProfile GroupId="0" Id="0" Name="anonymous" LifeTime="300" Pwd="" GUI_Description="Guest without login/password. This profile is predefined in IoTize." GUI_BackColor="662314" GUI_ManagedByApp="Yes" GUI_AppPageTitle="Dashboard" GUI_HTMLHome="" />
+<IOTizeProfile GroupId="65535" Id="65535" Name="admin" LifeTime="300" Pwd="0155AFFC023AFF6882F56A4E0D9C5466" GUI_Description="Administrator (admin) login. This profile is predefined in IoTize, with default password admin" GUI_BackColor="736057" GUI_ManagedByApp="Yes" GUI_AppPageTitle="" GUI_HTMLHome="" />
+<IOTizeProfile GroupId="65534" Id="65534" Name="supervisor" LifeTime="300" Pwd="99C243D5F82EB712C281D5FFE7D12097" GUI_Description="The supervisor is allowed to modify the login/password of the users, with default password supervisor" GUI_BackColor="3026478" GUI_ManagedByApp="Yes" GUI_AppPageTitle="" GUI_HTMLHome="" />
+<IOTizeBundle Id="6" GUI_Name="State" GUI_Description="" DataLogPeriod="0x00000000" GUI_MonitoringPeriod="500">
+<IOTizeVariable Id="19" GUI_Name="currentTemp" Unit="3" UnitType="float" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Current temperature" GUI_DispUnit="°C" GUI_float="1" GUI_htmlDigitsFloat="1">
+<XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="3em" GUI_showInCard="Yes" GUI_card.header.icon="thermometer-sharp" GUI_card.header.colorName="primary" GUI_card.description="" GUI_renderType="Text" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="float" />
+</IOTizeVariable>
+<IOTizeVariable Id="18" GUI_Name="targetTemp" Unit="3" UnitType="float" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Target temperature" GUI_DispUnit="°C" GUI_float="1" GUI_htmlDigitsFloat="1">
+<XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="3em" GUI_showInCard="Yes" GUI_card.header.icon="locate-sharp" GUI_card.header.colorName="primary" GUI_card.description="The target temperature is defined by the current mode" GUI_renderType="Text" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="float" />
+</IOTizeVariable>
+<IOTizeVariable Id="5" GUI_Name="activePercentage" Unit="3" UnitType="float" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Active percentage" GUI_DispUnit="%" GUI_float="1" GUI_htmlDigitsFloat="2">
+<XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="2em" GUI_showInCard="Yes" GUI_card.header.icon="pie-chart" GUI_card.header.colorName="primary" GUI_card.description="Calculates the percentage of active time of the radiator since its launch" GUI_renderType="Text" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="float">
+<ValueMapping GUI_bitRange="" GUI_content="" GUI_value="" />
+</XAppRender>
+</IOTizeVariable>
+<IOTizeAccessControl>
+<IOTizeACL ProfileName="anonymous" Rights="read" />
+</IOTizeAccessControl>
+</IOTizeBundle>
+<IOTizeBundle Id="2" GUI_Name="Control" GUI_Description="" DataLogPeriod="0x00000000" GUI_MonitoringPeriod="500">
+<IOTizeVariable Id="2" GUI_Name="currentMode" Unit="1" UnitType="signed integer" Quantity="1" IsInTap="1" InTap_InitialValueString="0x01;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Current mode">
+<XAppRender GUI_listChoices="0=OFF;1=AUTO;2=WEEK-END;3=WEEK-DAYS;4=ECO;5=COMFORT;6=FREE-FROST;" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="" GUI_showInCard="Yes" GUI_card.header.icon="speedometer-sharp" GUI_card.header.colorName="primary" GUI_card.description="Auto recovery should be off if you want to let this settings every time." GUI_renderType="Select" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="signed integer">
+<ValueMapping GUI_bitRange="0-7" GUI_content="off" GUI_value="0" />
+<ValueMapping GUI_bitRange="1" GUI_content="auto" GUI_value="1" />
+<ValueMapping GUI_bitRange="2" GUI_content="force-we" GUI_value="1" />
+<ValueMapping GUI_bitRange="00000010" GUI_content="force-wd" GUI_value="00000011" />
+<ValueMapping GUI_bitRange="0-7" GUI_content="force-eco" GUI_value="00000100" />
+<ValueMapping GUI_bitRange="0-7" GUI_content="force-comfort" GUI_value="00000101" />
+<ValueMapping GUI_bitRange="0-7" GUI_content="force-free-frost" GUI_value="00000110" />
+<ValueMapping GUI_bitRange="" GUI_content="" GUI_value="" />
+</XAppRender>
+</IOTizeVariable>
+<IOTizeVariable Id="23" GUI_Name="autoRecovery" Unit="1" UnitType="signed integer" Quantity="1" IsInTap="1" InTap_InitialValueString="0x01;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Auto recovery">
+<XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="DISABLE" GUI_textOn="ENABLE" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="" GUI_showInCard="Yes" GUI_card.header.icon="hardware-chip-sharp" GUI_card.header.colorName="primary" GUI_card.description="Allows you to resume the program and leave the auto mode management" GUI_renderType="OnOff" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="signed integer" />
+</IOTizeVariable>
+<IOTizeVariable Id="1" GUI_Name="comfortTemp" Unit="1" UnitType="signed integer" Quantity="1" IsInTap="1" InTap_InitialValueString="0x16;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Mode Comfort" GUI_DispUnit="°C">
+<XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="30" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="" GUI_showInCard="Yes" GUI_card.header.icon="flame-sharp" GUI_card.header.colorName="primary" GUI_card.description="" GUI_renderType="Slider" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="signed integer" />
+</IOTizeVariable>
+<IOTizeVariable Id="6" GUI_Name="frostFreeTemp" Unit="1" UnitType="signed integer" Quantity="1" IsInTap="1" InTap_InitialValueString="0x0F;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Mode Frost-free" GUI_DispUnit="°C">
+<XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="30" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="" GUI_showInCard="Yes" GUI_card.header.icon="snow-sharp" GUI_card.header.colorName="primary" GUI_card.description="" GUI_renderType="Slider" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="signed integer" />
+</IOTizeVariable>
+<IOTizeVariable Id="7" GUI_Name="ecoTemp" Unit="1" UnitType="signed integer" Quantity="1" IsInTap="1" InTap_InitialValueString="0x13;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Mode Eco" GUI_DispUnit="°C">
+<XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="30" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="" GUI_showInCard="Yes" GUI_card.header.icon="leaf-sharp" GUI_card.header.colorName="primary" GUI_card.description="" GUI_renderType="Slider" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="signed integer" />
+</IOTizeVariable>
+<IOTizeVariable Id="3" GUI_Name="hysteresis" Unit="3" UnitType="float" Quantity="1" IsInTap="1" InTap_InitialValueString="0.200000;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Temperature hysteresis" GUI_DispUnit="°C" GUI_float="1" GUI_htmlDigitsFloat="2">
+<XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="1" GUI_min="0" GUI_step="0.100000001" GUI_pin="Yes" GUI_valueFontSize="" GUI_showInCard="Yes" GUI_card.header.icon="resize-sharp" GUI_card.header.colorName="primary" GUI_card.description="Temperatures raise and fall in a fluid motion, so hysteresis setting is the amount of narrowness or wideness of temperature readings" GUI_renderType="Slider" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="float" />
+</IOTizeVariable>
+<IOTizeVariable Id="4" GUI_Name="dayConfig" Unit="1" UnitType="signed integer" Quantity="7" IsInTap="1" InTap_InitialValueString="0x01;0x02;0x02;0x02;0x02;0x01;0x01;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Status of the day">
+<XAppRender GUI_listChoices="1=WEEK-END;2 =WORK-DAYS;" GUI_icon="" GUI_textOff="Week-day" GUI_textOn="Week-end" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="" GUI_showInCard="Yes" GUI_card.header.icon="calendar" GUI_card.header.colorName="primary" GUI_card.description="Defines whether days will be considered as week-days or week-end days" GUI_renderType="Buttons" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 0&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;Monday&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 1&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 2&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 3&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;Thursday&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 4&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;Friday&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 5&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;Saturday&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 6&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;Sunday&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;" GUI_UnitType="signed integer">
+<ValueMapping GUI_bitRange="1" GUI_content="" GUI_value="1" />
+<ValueMapping GUI_bitRange="2" GUI_content="WD" GUI_value="1" />
+<ValueMapping GUI_bitRange="3" GUI_content="test" GUI_value="1" />
+<ValueMapping GUI_bitRange="" GUI_content="" GUI_value="" />
+<ValueMapping GUI_bitRange="" GUI_content="" GUI_value="" />
+<ValueMapping GUI_bitRange="" GUI_content="" GUI_value="" />
+<ValueMapping GUI_bitRange="" GUI_content="" GUI_value="" />
+<ValueMapping GUI_bitRange="" GUI_content="" GUI_value="" />
+</XAppRender>
+</IOTizeVariable>
+<IOTizeAccessControl>
+<IOTizeACL ProfileName="anonymous" Rights="read,write" />
+</IOTizeAccessControl>
+</IOTizeBundle>
+<IOTizeBundle Id="4" GUI_Name="Weekend" GUI_Description="" DataLogPeriod="0x00000000" GUI_MonitoringPeriod="500">
+<IOTizeVariable Id="11" GUI_Name="program_WE" Unit="1" UnitType="signed integer" Quantity="24" IsInTap="1" InTap_InitialValueString="0x03;0x03;0x02;0x01;0x02;0x00;0x01;0x03;0x03;0x03;0x02;0x01;0x01;0x02;0x01;0x02;0x01;0x00;0x03;0x03;0x00;0x02;0x01;0x03;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Program for the days of the week-end">
+<XAppRender GUI_listChoices="0=OFF;1=FREE-FROST;2=ECO;3=COMFORT" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="" GUI_showInCard="Yes" GUI_card.header.icon="time" GUI_card.header.colorName="primary" GUI_card.description="24 hours of the day" GUI_renderType="Select" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="&lt;ion-item style=&quot;margin-top:20px&quot;&gt;\n&lt;h2&gt;\n&lt;ion-label color=&quot;dark&quot;&gt;\n&lt;p *ngIf=&quot;index == 0&quot;&gt;\n&lt;strong&gt;12:00 AM - {{index + 1}}:00 AM &lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index &lt; 11 &amp;&amp; index &gt; 0&quot;&gt;\n&lt;strong&gt;{{index}}:00 AM - {{index + 1}}:00 AM &lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index == 11&quot;&gt;\n&lt;strong&gt;{{index}}:00 AM - {{index + 1}}:00 PM &lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index == 12&quot;&gt;\n&lt;strong&gt;{{index}}:00 PM - 1:00 PM &lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index &gt; 12 &amp;&amp; index &lt; 23&quot;&gt;\n&lt;strong&gt;{{index - 12}}:00 PM - {{index - 11}}:00 PM&lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index == 23&quot;&gt;\n&lt;strong&gt;{{index - 12}}:00 PM - 12:00 AM&lt;/strong&gt;\n&lt;/p&gt;\n&lt;/ion-label&gt;\n&lt;/h2&gt;\n&lt;/ion-item&gt;" GUI_UnitType="signed integer">
+<ValueMapping GUI_bitRange="0" GUI_content="Off" GUI_value="1" />
+<ValueMapping GUI_bitRange="1" GUI_content="Free-frost" GUI_value="1" />
+<ValueMapping GUI_bitRange="2" GUI_content="Eco" GUI_value="1" />
+<ValueMapping GUI_bitRange="3" GUI_content="Comfort" GUI_value="1" />
+<ValueMapping GUI_bitRange="" GUI_content="" GUI_value="" />
+</XAppRender>
+</IOTizeVariable>
+<IOTizeAccessControl>
+<IOTizeACL ProfileName="anonymous" Rights="read,write" />
+</IOTizeAccessControl>
+</IOTizeBundle>
+<IOTizeBundle Id="5" GUI_Name="Workdays" GUI_Description="" DataLogPeriod="0x00000000" GUI_MonitoringPeriod="500">
+<IOTizeVariable Id="10" GUI_Name="program_WD" Unit="1" UnitType="signed integer" Quantity="24" IsInTap="1" InTap_InitialValueString="0x02;0x03;0x01;0x02;0x00;0x03;0x01;0x00;0x00;0x03;0x02;0x01;0x01;0x00;0x02;0x03;0x00;0x02;0x01;0x00;0x01;0x00;0x00;0x03;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Program for the days of the week">
+<XAppRender GUI_listChoices="0=OFF;1=FREE-FROST;2=ECO;3=COMFORT" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="" GUI_showInCard="Yes" GUI_card.header.icon="time" GUI_card.header.colorName="primary" GUI_card.description="24 hours of the day" GUI_renderType="Select" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="&lt;ion-item style=&quot;margin-top:20px&quot;&gt;\n&lt;h2&gt;\n&lt;ion-label color=&quot;dark&quot;&gt;\n&lt;p *ngIf=&quot;index == 0&quot;&gt;\n&lt;strong&gt;12:00 AM - {{index + 1}}:00 AM &lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index &lt; 11 &amp;&amp; index &gt; 0&quot;&gt;\n&lt;strong&gt;{{index}}:00 AM - {{index + 1}}:00 AM &lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index == 11&quot;&gt;\n&lt;strong&gt;{{index}}:00 AM - {{index + 1}}:00 PM &lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index == 12&quot;&gt;\n&lt;strong&gt;{{index}}:00 PM - 1:00 PM &lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index &gt; 12 &amp;&amp; index &lt; 23&quot;&gt;\n&lt;strong&gt;{{index - 12}}:00 PM - {{index - 11}}:00 PM&lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index == 23&quot;&gt;\n&lt;strong&gt;{{index - 12}}:00 PM - 12:00 AM&lt;/strong&gt;\n&lt;/p&gt;\n&lt;/ion-label&gt;\n&lt;/h2&gt;\n&lt;/ion-item&gt;" GUI_UnitType="signed integer" />
+</IOTizeVariable>
+<IOTizeAccessControl>
+<IOTizeACL ProfileName="anonymous" Rights="read,write" />
+</IOTizeAccessControl>
+</IOTizeBundle>
+</IOTizeConfiguration>
