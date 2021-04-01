@@ -32,7 +32,7 @@ If you wish to purchase the main components follow these links:
 Below a few pictures. An extension cord has been cut and each half has been connected to the board: 
 
 <p align="center">
-<img src="doc/images/picture_1.jpg" width="250">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/WattTap-demo/doc/images/picture_1.jpg" width="250">
 </p>
 <p align="center">
     <em>Assembly of the wattmeter</em>
@@ -41,7 +41,7 @@ Below a few pictures. An extension cord has been cut and each half has been conn
 The wattmeter acts as a spy between the mains plug and the load.
 </p>
 <p align="center">
-<img src="doc/images/picture_2.jpg" width="250">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/WattTap-demo/doc/images/picture_2.jpg" width="250">
 </p>
 <p align="center">
     <em>Inside the enclosure</em>
@@ -51,7 +51,7 @@ In the plastic case, the TapNLink module is linked with a small ribbon cable.
 </p>
 
 <p align="center">
-<img src="doc/images/picture_3.jpg" width="250">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/WattTap-demo/doc/images/picture_3.jpg" width="250">
 </p>
 <p align="center">
     <em>TapNLink isolation</em>
@@ -63,7 +63,7 @@ An isolation (Kapton tape) has been added between the tap and the main board to 
 ## Overview
 
 <p align="center">
-<img src="doc/images/diagram.png">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/WattTap-demo/doc/images/diagram.png">
 </p>
 <p align="center">
     <em>General view of the project</em>
@@ -76,7 +76,7 @@ The wattmeter is based on a single component (BL0937) that measures both the cur
 ## Schematic 
 
 <p align="center">
-<img src="doc/images/wattmeter.png">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/WattTap-demo/doc/images/wattmeter.png">
 </p>
 <p align="center">
     <em>Electric diagram</em>
@@ -95,7 +95,7 @@ The BL0937 has two output:
 The selection of current vs voltage is done by `SEL` connected to the `TARGET_SWDIO`pin.
 
 <p align="center">
-<img src="doc/images/tap_targ.png" width="300">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/WattTap-demo/doc/images/tap_targ.png" width="300">
 </p>
 <p align="center">
     <em>Target paw of the TapNLink</em>
@@ -135,7 +135,7 @@ In the `Java` code executed by the `JVM`, the `onCheck()` method is called perio
 - Thanks to the `TapNLink`you can now monitor the instant power consumption, or get the passed consumption that have been stored into the module. 
 
 <p align="center">
-<img src="doc/images/app.jpg" width="200">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/WattTap-demo/doc/images/app.jpg" width="200">
 </p>
 <p align="center">
     <em>Viewing the application</em>
@@ -151,7 +151,7 @@ Note that we focus onto the active power and we need a pure resistor and use an 
 3. Once connected, the Bundle `Calibration` is displayed. Click on this one.
 4. Now you should define the active power, current and voltage factor to 1.
 <p align="center">
-<img src="doc/images/app_calibration.jpg" width="200">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/WattTap-demo/doc/images/app_calibration.jpg" width="200">
 </p>
 <p align="center">
     <em>Calibration value</em>
@@ -194,7 +194,7 @@ Note that we focus onto the active power and we need a pure resistor and use an 
 You should be login with admin account like calibration change to define update shadow on AWS `active`.
 </p>
 <p align="center">
-<img src="doc/images/picture_aws.jpg" width="200">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/WattTap-demo/doc/images/picture_aws.jpg" width="200">
 </p>
 <p align="center">
     <em>Turn on MQTT message to AWS</em>
@@ -205,7 +205,7 @@ You should be login with admin account like calibration change to define update 
 
 - If successfull :
 <p align="center">
-<img src="doc/images/mqtt_shadow.png" width="800">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/WattTap-demo/doc/images/mqtt_shadow.png" width="800">
 </p>
 <p align="center">
     <em>AWS find MQTT message</em>
@@ -225,7 +225,7 @@ To change the generated code, you must go to the build accessible on the iotize 
 After a few hours of changes to the generated code, I was able to make the following changes:  
 
 <p align="center">
-<img src="doc/images/v2_1.jpg" width="250">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/WattTap-demo/doc/images/v2_1.jpg" width="250">
 </p>
 <p align="center">
     <em>New Chart bar</em>
@@ -233,7 +233,7 @@ After a few hours of changes to the generated code, I was able to make the follo
 The hours/days/months consumption has showed on chart bar now.
 
 <p align="center">
-<img src="doc/images/v2_gauge.jpg" width="250">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/WattTap-demo/doc/images/v2_gauge.jpg" width="250">
 </p>
 <p align="center">
     <em>New gauge display</em>
