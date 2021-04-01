@@ -23,7 +23,7 @@ If you wish to purchase the main components follow these links:
 
 Below a few pictures. An extension cord has been cut and each half has been connected to the board.
 <p align="center">
-<img src="https://github.com/iotize-sas/Open-Projects/tree/main/DigiTapLock-demo/doc/images/picture_1.jpg" width="250">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/DigiTapLock-demo/doc/images/picture_1.jpg" width="250">
 </p>
 <p align="center">
     <em>Assembly of the relay</em>
@@ -33,7 +33,7 @@ The relay acts as a spy between the mains plug and the load.
 </p>
 
 <p align="center">
-<img src="https://github.com/iotize-sas/Open-Projects/tree/main/DigiTapLock-demo/doc/images/picture_2.jpg" width="250">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/DigiTapLock-demo/doc/images/picture_2.jpg" width="250">
 </p>
 <p align="center">
     <em>Inside of the case</em>
@@ -43,7 +43,7 @@ In the plastic case, the TapNLink module is linked with a small ribbon cable.
 </p>
 
 <p align="center">
-<img src="https://github.com/iotize-sas/Open-Projects/tree/main/DigiTapLock-demo/doc/images/picture_3.jpg" width="250">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/DigiTapLock-demo/doc/images/picture_3.jpg" width="250">
 </p>
 <p align="center">
     <em>Tap relay</em>
@@ -57,7 +57,7 @@ The red cable will be replaced by a button, to ask if access has possible.
 ## Overview
 
 <p align="center">
-<img src="https://github.com/iotize-sas/Open-Projects/tree/main/DigiTapLock-demo/doc/images/overview.jpg">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/DigiTapLock-demo/doc/images/overview.jpg">
 </p>
 <p align="center">
     <em>General view of the project</em>
@@ -66,7 +66,7 @@ The red cable will be replaced by a button, to ask if access has possible.
 ## Schematic
 
 <p align="center">
-<img src="https://github.com/iotize-sas/Open-Projects/tree/main/DigiTapLock-demo/doc/images/schematic.png">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/DigiTapLock-demo/doc/images/schematic.png">
 </p>
 <p align="center">
     <em>Electric diagram</em>
@@ -94,7 +94,7 @@ The `Java` code embedded in the `JVM` will allow us to make a `onCheck()` method
 - Once your circuit is properly connect, and your TapNLink configured, you can launch the mobile app. The fastest way consists in approach your mobile phone (with NFC enabled) to the plastic enclosure. The NFC will launch the app and connect automatically to the TapNLink. 
 
 <p align="center">
-<img src="https://github.com/iotize-sas/Open-Projects/tree/main/DigiTapLock-demo/doc/images/picture_end.jpg" width="400">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/DigiTapLock-demo/doc/images/picture_end.jpg" width="400">
 </p>
 <p align="center">
    <em>DigiTapLock connected to a device</em>
@@ -103,7 +103,7 @@ The `Java` code embedded in the `JVM` will allow us to make a `onCheck()` method
 - Thanks to the `TapNLink`you can now monitor the access of your device.
 
 <p align="center">
-<img src="https://github.com/iotize-sas/Open-Projects/tree/main/DigiTapLock-demo/doc/images/app_1.jpg" width="200">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/DigiTapLock-demo/doc/images/app_1.jpg" width="200">
 </p>
 <p align="center">
     <em>Viewing the application</em>
@@ -115,7 +115,7 @@ Login with admin account to access of the control dashboard.
 
 
 <p align="center">
-<img src="https://github.com/iotize-sas/Open-Projects/tree/main/DigiTapLock-demo/doc/images/app_2.jpg" width="200">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/DigiTapLock-demo/doc/images/app_2.jpg" width="200">
 </p>
 <p align="center">
     <em>Access Bundle</em>
@@ -124,7 +124,7 @@ On Access bundle you can change the time remaining on access. You can edit 21 co
 
 
 <p align="center">
-<img src="https://github.com/iotize-sas/Open-Projects/tree/main/DigiTapLock-demo/doc/images/app_3.jpg" width="200">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/DigiTapLock-demo/doc/images/app_3.jpg" width="200">
 </p>
 <p align="center">
     <em>Control Bundle</em>
@@ -139,7 +139,7 @@ After a few hours of changes to the generated code, I was able to make the follo
 
 
 <p align="center">
-<img src="https://github.com/iotize-sas/Open-Projects/tree/main/DigiTapLock-demo/doc/images/v2_1.jpg" width="250">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/DigiTapLock-demo/doc/images/v2_1.jpg" width="250">
 </p>
 <p align="center">
     <em>New input code</em>
@@ -148,7 +148,7 @@ The code can be input with digital keyboard now.
 
 
 <p align="center">
-<img src="https://github.com/iotize-sas/Open-Projects/tree/main/DigiTapLock-demo/doc/images/v2_2.jpg" width="250">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/DigiTapLock-demo/doc/images/v2_2.jpg" width="250">
 </p>
 <p align="center">
     <em>Preferences connection</em>
