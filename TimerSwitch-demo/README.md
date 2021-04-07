@@ -1,5 +1,3 @@
-# TimerSwitch
-
 In this article we will show how to define relay state from the TapNLink.
 The only 'processor' is the Java Virtual Machine embedded into the TapNLink module that runs a simple Java program. 
 
@@ -25,7 +23,7 @@ If you wish to purchase the main components follow these links:
 
 Below a few pictures. An extension cord has been cut and each half has been connected to the board.
 <p align="center">
-<img src="doc/images/picture_1.jpg" width="250">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/TimerSwitch-demo/doc/images/picture_1.jpg" width="250">
 </p>
 <p align="center">
     <em>Assembly of the relay</em>
@@ -35,7 +33,7 @@ The relay acts as a spy between the mains plug and the load.
 </p>
 
 <p align="center">
-<img src="doc/images/picture_2.jpg" width="250">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/TimerSwitch-demo/doc/images/picture_2.jpg" width="250">
 </p>
 <p align="center">
     <em>Inside of the case</em>
@@ -45,7 +43,7 @@ In the plastic case, the TapNLink module is linked with a small ribbon cable.
 </p>
 
 <p align="center">
-<img src="doc/images/picture_3.jpg" width="250">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/TimerSwitch-demo/doc/images/picture_3.jpg" width="250">
 </p>
 <p align="center">
     <em>Tap relay</em>
@@ -57,7 +55,7 @@ The relay element switch ON/OFF the device current.
 ## Overview
 
 <p align="center">
-<img src="doc/images/overview.png">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/TimerSwitch-demo/doc/images/overview.png">
 </p>
 <p align="center">
     <em>General view of the project</em>
@@ -66,7 +64,7 @@ The relay element switch ON/OFF the device current.
 ## Schematic
 
 <p align="center">
-<img src="doc/images/schematic.png">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/TimerSwitch-demo/doc/images/schematic.png">
 </p>
 <p align="center">
     <em>Electric diagram</em>
@@ -100,7 +98,7 @@ The `Java` code embedded in the `JVM` will allow us to make a `onCheck()` method
 The mode definition allows to force an on/off or to set to auto and allow the system to manage its state with the daily setup
 
 <p align="center">
-<img src="doc/images/view_1.jpg" width="200">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/TimerSwitch-demo/doc/images/view_1.jpg" width="200">
 </p>
 <p align="center">
     <em>Define state</em>
@@ -111,7 +109,7 @@ The mode definition allows to force an on/off or to set to auto and allow the sy
 The manual turn ON has priority than an active mode. Then when you press the button, the device turn ON during time define on Access Bundle.
 
  <p align="center">
- <img src="doc/images/view_3.jpg" width="200">
+ <img src="https://github.com/iotize-sas/Open-Projects/blob/main/TimerSwitch-demo/doc/images/view_3.jpg" width="200">
  </p>
  <p align="center">
      <em>Manual access progress</em>
@@ -122,7 +120,7 @@ The manual turn ON has priority than an active mode. Then when you press the but
 This option allows you to return to the AUTO mode each time change. If the ON a mode has forced, then at the next hour if this mode is active the device will switch to AUTO.
 
  <p align="center">
- <img src="doc/images/view_2.jpg" width="200">
+ <img src="https://github.com/iotize-sas/Open-Projects/blob/main/TimerSwitch-demo/doc/images/view_2.jpg" width="200">
  </p>
  <p align="center">
      <em>Return to AUTO mode</em>
