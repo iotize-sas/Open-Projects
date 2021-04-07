@@ -1,5 +1,3 @@
-# ThermosTap
-
 This article presents a simple connected sensor temp based on a TapNLink module. The only 'processor' is the Java Virtual Machine embedded into the TapNLink module that runs a simple Java program. 
 
 
@@ -69,7 +67,7 @@ In the `Java` code executed by the `JVM`, the `onCheck()` method is call periodi
 - Thanks to the `TapNLink`you can now monitor the target and current temperature. 
 
 <p align="center">
-<img src="doc/images/app.jpg" width="200">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/ThermosTap-demo/doc/images/app.jpg" width="200">
 </p>
 <p align="center">
     <em>Viewing the application</em>
@@ -80,7 +78,7 @@ In the `Java` code executed by the `JVM`, the `onCheck()` method is call periodi
 You can activate any mode, but if `Auto recovery` mode is active then at the next time change the mode will be set to `AUTO`.
 
 <p align="center">
-<img src="doc/images/app_1.jpg" width="200">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/ThermosTap-demo/doc/images/app_1.jpg" width="200">
 </p>
 <p align="center">
     <em>Select mode</em>
@@ -91,7 +89,7 @@ You can activate any mode, but if `Auto recovery` mode is active then at the nex
 The temperatures for each mode can be changed using a slider.
 
 <p align="center">
-<img src="doc/images/app_2.jpg" width="200">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/ThermosTap-demo/doc/images/app_2.jpg" width="200">
 </p>
 <p align="center">
     <em>Mode's temperature slider</em>
@@ -102,7 +100,7 @@ The temperatures for each mode can be changed using a slider.
 You can modify the hysteresis according to the connected device to avoid a change between the on/off too frequent.
 
 <p align="center">
-<img src="doc/images/app_3.jpg" width="200">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/ThermosTap-demo/doc/images/app_3.jpg" width="200">
 </p>
 <p align="center">
     <em>Hysteresis slider</em>
@@ -113,7 +111,7 @@ You can modify the hysteresis according to the connected device to avoid a chang
 You must define the status of each day, if it is to be considered as a working day or weekend day
 
 <p align="center">
-<img src="doc/images/app_4.jpg" width="200">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/ThermosTap-demo/doc/images/app_4.jpg" width="200">
 </p>
 <p align="center">
     <em>Days status</em>
@@ -124,7 +122,7 @@ You must define the status of each day, if it is to be considered as a working d
 Set the mode for each day type
 
 <p align="center">
-<img src="doc/images/app_5.jpg" width="200">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/ThermosTap-demo/doc/images/app_5.jpg" width="200">
 </p>
 <p align="center">
     <em>Week end program</em>
