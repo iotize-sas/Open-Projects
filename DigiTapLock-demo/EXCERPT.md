@@ -1,1 +1,0 @@
-This article presents a simple connected relay based on a TapNLink module. The only 'processor' is the Java Virtual Machine embedded into the TapNLink module that runs a simple Java program. This one controls the access of the device connected.
