@@ -24,7 +24,7 @@ If you wish to purchase the main components follow these links:
 ## How it works
 
 <p align="center">
-<img src="doc/images/picture_1.jpg" width="500">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/ThermosTap-demo/doc/images/picture_1.jpg" width="500">
 </p>
 <p align="center">
     <em>Physical view</em>
@@ -37,7 +37,7 @@ The led switch has define by the Pin A2, this one has directly connected to LED2
 ## Overview
 
 <p align="center">
-<img src="doc/images/overview.jpg">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/ThermosTap-demo/doc/images/overview.jpg">
 </p>
 <p align="center">
     <em>General view of the project</em>
