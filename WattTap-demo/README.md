@@ -126,7 +126,7 @@ In the `Java` code executed by the `JVM`, the `onCheck()` method is called perio
 - Once your circuit is properly connected, and your TapNLink configured, you can launch the mobile app. The fastest way consists in approching your mobile phone (with NFC enabled) to the plastic enclosure. The NFC will launch the app and connect automatically to the TapNLink. 
 
 <p align="center">
-<img src="doc/images/picture_end.jpg" width="400">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/WattTap-demo/doc/images/picture_end.jpg" width="400">
 </p>
 <p align="center">
    <em>Wattmeter connected to a device</em>
