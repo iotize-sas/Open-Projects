@@ -70,7 +70,7 @@ The red cable will be replaced by a button, to ask if access is possible.
 
 ## Java code
 
-The `Java` code embedded in the `JVM` allows us to do an `onCheck()` call each time (This time is defined in a `TapNLinkVar` construct). With this `onCheck()` method, by verifying that the provided `id` corresponds to the desired `id`, we will be able to perform data recovery tasks. The `TapNLinkVar` value also updates or sends an MQTT message.
+The `Java` code embedded in the `JVM` allows us to do an `onCheck()` call each time interval (This is defined in the `TapNLinkVar` construct). With this `onCheck()` method, by verifying that the provided `id` corresponds to the desired `id`, we will be able to perform data recovery tasks. The `TapNLinkVar` value also updates or sends an MQTT message.
 
 - For more `java` code information, [click here](https://github.com/iotize-sas/DigiTapLock-demo/doc/Java_code/Java_code.md)!
 
@@ -116,7 +116,7 @@ First, login using the admin account to access the control dashboard.
 <p align="center">
     <em>Access panel</em>
 </p>
-In the Access panel, you can change the number of times remaining for access. You can set store up to 21 different access codes for your device.
+In the Access panel, you can change the number of times remaining for access. You can set up to 21 different access codes for your device.
 
 
 <p align="center">
