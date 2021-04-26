@@ -76,7 +76,7 @@ The `Java` code embedded in the `JVM` allows us to do an `onCheck()` call each t
 
 ## IoTize Studio
 
-1. Open the TapNLink configruation project `iotize_studio/DigiTapLock.iotz` with IoTize Studio. For more information about Studio, [click here](http://docs.iotize.com/UserManuals/IotizeStudio/).
+1. Open the TapNLink configuration project `iotize_studio/DigiTapLock.iotz` with IoTize Studio. For more information about Studio, [click here](http://docs.iotize.com/UserManuals/IotizeStudio/).
 2. In the `IoTize_Studio/Tap` section, set `User internal JVM` to `Yes` and set the `.java` file path `java/DigiTapLock.java`.
 3. In IoTize Studio execute the `java` build to generate the `.bcb` file. 
 4. Configure your `TapNLink` using `IoTize Studio` :
