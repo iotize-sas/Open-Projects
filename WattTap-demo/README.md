@@ -220,28 +220,3 @@ When everything is correctly set up, data messages are received for the AWS Thin
 ## More Information
 
 - For more information about the creation of this project, [click here](https://github.com/iotize-sas/Open-Projects/tree/main/WattTap-demo/doc/WattTapDemo.pdf).
-
-
-## WattTap v2
-
-To change the generated code, you must go to the build that is accessible on IoTize's Tap Cloud.
-
->> Note: if you want to install this version, you must uninstall the previous version of wattTap and then install this one.
-
-Version 2 includes the following changes:
-
-<p align="center">
-<img src="https://github.com/iotize-sas/Open-Projects/blob/main/WattTap-demo/doc/images/v2_1.jpg" width="250">
-</p>
-<p align="center">
-    <em>Bar chart view</em>
-</p>
-Consumption history is shown in a bar chart.
-
-<p align="center">
-<img src="https://github.com/iotize-sas/Open-Projects/blob/main/WattTap-demo/doc/images/v2_gauge.jpg" width="250">
-</p>
-<p align="center">
-    <em>Display gauge</em>
-</p>
-The current and voltage data are displayed in a new gauge format.
