@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0"?>
-<IOTizeConfiguration Version="2.7.0" Lock="24">
+<IOTizeConfiguration Version="2.9.0" Lock="24">
 <GUI_Environment StoreVarInfo="false" UseInternalJVM="true" Locked="false" Autoincrement="false" AutoSyncTime="true" DocVerboseLevel="3" DocLogVerboseLevel="3" DocLogFileName="" AdminPWD="admin" SmartPhoneStoragePath="" />
 <GUI_XAppConfig useServer="yes">
 <GUI_app path="" version="0.0.1" cloudProjectId="watttap-rebj5" />
@@ -14,7 +14,7 @@
 <GUI_mqtt enabled="false" rememberLastDevices="true" />
 </GUI_hostProtocols>
 <GUI_pages>
-<GUI_TapInfoPage enabled="true" pageTitle="Device Info">
+<GUI_TapInfoPage enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info">
 <GUI_infosn enabled="true" />
 <GUI_infosn />
 <GUI_infofwver enabled="true" />
@@ -28,29 +28,29 @@
 <items key="configVersion" />
 <items key="appName" />
 </GUI_TapInfoPage>
-<GUI_AboutPage enabled="false" pageTitle="About" showAppVersion="No" developerName="" appDescription="" />
-<GUI_TargetProtocolConfPage enabled="false" pageTitle="Target Protocol Settings" />
-<GUI_TapSupervisionPage enabled="false" pageTitle="Administration" />
-<GUI_TapConnectivitySettingsPage enabled="true" pageTitle="Connectivity settings" />
+<GUI_AboutPage enabled="false" pageTitle="About" showAppVersion="No" developerName="" appDescription="" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" />
+<GUI_TargetProtocolConfPage enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" />
+<GUI_TapSupervisionPage enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" />
+<GUI_TapConnectivitySettingsPage enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" />
 </GUI_pages>
 </GUI_XAppConfig>
-<IOTizeApp Name="WattTap" DevIoTizeSN="IoTize006100001003" InterfaceLock="24" Scram_Hash_It="5000" GUI_Path="$4/com.mycompany.appeidb" GUI_WebSpePath="" Path="$6/IoTize00610000101F/IoTize00610000101F.cloud" TimeZoneStr="UTC-1" GUI_TargetType="0" TargetProtocol="DirectIO" GUI_S3Pmode="1" S3Pmode="1" S3PDelay="1" GUI_Modbus_GenerateAddr="yes" TargetProtocolConfDataLen="8" TargetProtocolConfData="0001000a01002580" WebLink="https://www.iotize.com" AAR="com.mycompany.appeidb" HostProtocol="FFFF" Firmware="1.0.0" Config="1.0.0" NFCPairingMandatory="No" BLEPairingRequest="0" NFCInterruptionLock="0" NFCLogin="0" LowPowerLevel="0" LowPowerHostTimeout="30" JVM_Custom_Code="..\java\WattTap.java" JVM_HeapSize="30">
+<IOTizeApp Name="WattTap" DevIoTizeSN="IoTize00610000101F" InterfaceLock="24" Scram_Hash_It="5000" GUI_Path="$4/com.mycompany.appeidb" GUI_WebSpePath="" Path="" TimeZoneStr="UTC-2" GUI_TargetType="0" TargetProtocol="DirectIO" GUI_S3Pmode="1" S3Pmode="1" S3PDelay="1" GUI_Modbus_GenerateAddr="yes" TargetProtocolConfDataLen="8" TargetProtocolConfData="0001000a01002580" WebLink="https://www.iotize.com" AAR="com.mycompany.appeidb" HostProtocol="FFFF" Firmware="1.0.0" Config="1.0.0" NFCPairingMandatory="No" BLEPairingRequest="0" NFCInterruptionLock="0" NFCLogin="0" LowPowerLevel="0" LowPowerHostTimeout="30" JVM_Custom_Code="C:\Users\yoann.roche\Documents\Open Projects\Open-Projects\WattTap-demo\java\WattTap.java" JVM_CodeSize="0" JVM_HeapSize="16" JVM_StackSize="32" JVM_HandleSize="128">
 <USB_Aliases />
 <LoRa_Info LoRaMode="0" />
-<WIFI_Info Network="Network" ModuleSSID="" Module_AP_SSID="TAP" Module_AP_WEPKey="ABCD1234" ModuleWEPKey="" Cloud_Publish_Topic="" Cloud_Subscribe_Topic="" MQTTRelay_URL="user.cloud.iotize.com" MQTTRelay_Client_ID="123456789" MQTTRelay_Broker_Login="" MQTTRelay_Passwd="" MQTTRelay_Service="1883" Broker_Certificate="" MQTTRelay_Topic_Prefix="" ModuleIPAddress="0.0.0.0" ModuleIPGateway="0.0.0.0" ModuleIPMask="0.0.0.0" Wifi_SSID_Hidden="0" Wifi_WEPKey_Hidden="1" />
+<WIFI_Info Network="Network" ModuleSSID="" Module_AP_SSID="TAP" Module_AP_WEPKey="ABCD1234" ModuleWEPKey="" Cloud_Publish_Topic="" Cloud_Subscribe_Topic="" MQTTRelay_URL="a1" MQTTRelay_Client_ID="WattMeter" MQTTRelay_Broker_Login="" MQTTRelay_Passwd="" MQTTRelay_Service="8883" Broker_Certificate="" ModuleIPAddress="0.0.0.0" ModuleIPGateway="0.0.0.0" ModuleIPMask="0.0.0.0" Wifi_SSID_Hidden="0" Wifi_WEPKey_Hidden="1" />
 <GUI_Reader Name="" />
 <GUI_ConnectionMode Value="3" />
 <GUI_CryptoMode Value="100" />
 <GUI_MQTT_Info>
 <GUI_MQTTCloudEnable Value="1" />
-<GUI_DevMQTTHostName Name="user.cloud.iotize.com" />
-<GUI_DevMQTTServiceName Name="1883" />
+<GUI_DevMQTTHostName Name="a1" />
+<GUI_DevMQTTServiceName Name="8883" />
 <GUI_DevMQTT_UID Name="IoTize00610000101F_0000000000" />
 <GUI_DevMQTT_ClientID Name="IoTize004100000000" />
 <GUI_DevMQTT_Certificate Name="" />
 <GUI_DevMQTT_PrivateKey Name="" />
-<GUI_DevMQTT_Login Name="IoTize00610000001F" />
-<GUI_DevMQTT_Password Name="IoTize00610000001F_0000000000" />
+<GUI_DevMQTT_Login Name="" />
+<GUI_DevMQTT_Password Name="" />
 <GUI_DevMQTT_BrokerCertificate Name="" />
 <GUI_DevMQTTSelection Value="false" />
 <GUI_DevMQTTTopicAnswer Name="" />
@@ -58,91 +58,94 @@
 <GUI_DevMQTTIBMAPIKey Name="" />
 <GUI_DevMQTTIBMAPIToken Name="" />
 </GUI_MQTT_Info>
-<GUI_DevMQTTHostName Name="user.cloud.iotize.com" />
+<GUI_DevMQTTHostName Name="a1" />
 <GUI_DevMQTTSelection Value="false" />
-<GUI_DevMQTTServiceName Name="1883" />
-<GUI_DevMQTT_UID Name="IoTize00610000101F_0000000000" />
-<GUI_DevSocketHostName Name="192.168.20.135" />
+<GUI_DevMQTTServiceName Name="8883" />
+<GUI_DevMQTT_UID Name="" />
+<GUI_DevSocketHostName Name="" />
 <GUI_DevSocketServiceName Name="2000" />
-<GUI_DevBLEDeviceName Name="&quot;TAP_0101E ( 70:b3:d5:9c:f0:1f )&quot;" />
+<GUI_DevBLEDeviceName Name="" />
 <GUI_DevUARTCOM Port="COM1" />
 <GUI_DevNetkey Name="testnetkey" />
 <GUI_ElfFile PathName="" Description="" />
 <GUI_SVDFile PathName="" />
 <GUI_AppDevServer port="4210" />
-<GUI_HTML Generate="yes" Prefix="HTML_TEST" Home="IoTize00610000101F.html" />
+<GUI_HTML Generate="yes" Prefix="HTML_TEST" Home="" />
 <GUI_CSSAuto Auto="yes" />
 <GUI_CSSFile PathName="" />
 <GUI_htmlHideLogin Hide="no" />
 <GUI_htmlDigitsFloat Value="3" />
-<CloudServices CloudEnable="2" CloudSendConf="Yes" CloudMqttPeriod="0" CloudUserId="0">
+<CloudServices CloudEnable="4" CloudSendConf="Yes" CloudMqttPeriod="0" CloudUserId="0">
 <CloudHostName Name="user.cloud.iotize.com" />
 <CloudServiceName Name="1883" />
 <CloudMQTT_UID Name="" />
-<ProductKey_UID Name="IoTize006100001003_0000000000" />
-<CloudMQTT_USERNAME Name="IoTize006100001003" />
+<ProductKey_UID Name="IoTize00610000101F_0000000000" />
+<CloudMQTT_USERNAME Name="IoTize00610000101F" />
 <IBMOrgID Name="" />
 <IBMDeviceType Name="" />
 <IBMDeviceID Name="" />
 <IBMDeviceToken Name="" />
 <IBMRootCertificate />
-<AWSCustomEndpoint Name="a1" />
+<AWSCustomEndpoint Name="a11llgq4lg9qxk-ats.iot.eu-west-1.amazonaws.com" />
 <AWSThingName Name="WattMeter" />
-<DeviceCertificate />
-<DevicePrivateKey />
-<AWSRootCertificate />
+<DeviceCertificate Name="" />
+<DevicePrivateKey Name="" />
+<AWSRootCertificate Name="" />
 </CloudServices>
 </IOTizeApp>
 <IOTizeProfile GroupId="0" Id="0" Name="anonymous" LifeTime="300" Pwd="" GUI_Description="Guest without login/password. This profile is predefined in IoTize." GUI_BackColor="662314" GUI_ManagedByApp="Yes" GUI_AppPageTitle="Consumption" GUI_HTMLHome="" />
-<IOTizeProfile GroupId="65535" Id="65535" Name="admin" LifeTime="300" Pwd="0155AFFC023AFF6882F56A4E0D9C5466" Scram_Pwd="3E2E4BF1E404E9645E395D86CEB0A0D11F8327771A6649438BC9AEEFDF68878A910680CB" Scram_User_Salt="2433122507" GUI_Description="Administrator (admin) login. This profile is predefined in IoTize, with default password admin" GUI_BackColor="736057" GUI_ManagedByApp="Yes" GUI_AppPageTitle="Consumption" GUI_HTMLHome="" />
-<IOTizeProfile GroupId="65534" Id="65534" Name="supervisor" LifeTime="300" Pwd="99C243D5F82EB712C281D5FFE7D12097" Scram_Pwd="AC97073936A063D59D4173111BAB991EAECCA8B1ECC2932B6B8C2C9C1F151E96791AA5E3" Scram_User_Salt="2031789539" GUI_Description="The supervisor is allowed to modify the login/password of the users, with default password supervisor" GUI_BackColor="3026478" GUI_ManagedByApp="Yes" GUI_AppPageTitle="" GUI_HTMLHome="" />
+<IOTizeProfile GroupId="65535" Id="65535" Name="admin" LifeTime="300" Pwd="0155AFFC023AFF6882F56A4E0D9C5466" Scram_Pwd="0A72501849B69F08750E18AA9D1507A6A129A8700FC29302EBB7839980F8D2B80B560F7D" Scram_User_Salt="190189437" GUI_Description="Administrator (admin) login. This profile is predefined in IoTize, with default password admin" GUI_BackColor="736057" GUI_ManagedByApp="Yes" GUI_AppPageTitle="Consumption" GUI_HTMLHome="" />
+<IOTizeProfile GroupId="65534" Id="65534" Name="supervisor" LifeTime="300" Pwd="99C243D5F82EB712C281D5FFE7D12097" Scram_Pwd="407D59E11EC65DEB4849A677FC17FA50AD20B85CA8781E60FCA0CF71916B452B9FC4D63C" Scram_User_Salt="2680477244" GUI_Description="The supervisor is allowed to modify the login/password of the users, with default password supervisor" GUI_BackColor="3026478" GUI_ManagedByApp="Yes" GUI_AppPageTitle="" GUI_HTMLHome="" />
 <IOTizeBundle Id="1" GUI_Name="State" GUI_Description="" DataLogPeriod="0x00000000" GUI_MonitoringPeriod="500">
-<IOTizeVariable Id="10" GUI_Name="instantPower" Unit="3" UnitType="float" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Instant power" GUI_DispUnit="W">
-<XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="1" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="" GUI_showInCard="Yes" GUI_card.header.icon="analytics-outline" GUI_card.header.colorName="primary" GUI_card.description="Dynamic power statistical" GUI_renderType="Chart" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="float" />
+<IOTizeVariable Id="10" GUI_Name="instantPower" Unit="3" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Instant power" GUI_DispUnit="W" GUI_float="1" GUI_htmlDigitsFloat="3">
+<XAppRender GUI_UnitType="float" GUI_renderType="Chart" GUI_xAxis="Yes" GUI_yAxis="Yes" GUI_showLegend="Yes" GUI_valueCountLimit="30" GUI_showInCard="Yes" GUI_card.description="Dynamic power statistical" GUI_card.header.colorName="primary" GUI_card.header.icon="analytics-outline" GUI_card.header.title="Instant power" GUI_customConverter="No" GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="1" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" />
 </IOTizeVariable>
-<IOTizeVariable Id="1" GUI_Name="day_consumption" Unit="3" UnitType="float" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Consumption of the day" GUI_DispUnit="kWh" GUI_float="1" GUI_htmlDigitsFloat="4">
-<XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="2em" GUI_showInCard="Yes" GUI_card.header.icon="flash" GUI_card.header.colorName="primary" GUI_card.description="Cumulates the consumption of the day. Starts from scratch on each new day." GUI_renderType="Text" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="float" />
+<IOTizeVariable Id="15" GUI_Name="backupConsumption" Unit="3" Quantity="3" IsInTap="1" InTap_InitialValueString="0x00000000;0x00000000;0x00000000;" GUI_Submit="No" GUI_Display="No">
+<XAppRender GUI_UnitType="float" GUI_arrayValueVariableDisplayType="duplicate" GUI_indexTemplate="" GUI_renderType="Text" GUI_editable="No" GUI_unit="" GUI_valueFontSize="" GUI_valueFormatting="" GUI_minLength="0" GUI_maxLength="100" GUI_showInCard="No" GUI_customConverter="No" GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_card.header.icon="" GUI_card.header.colorName="" GUI_card.description="" GUI_content="" />
 </IOTizeVariable>
-<IOTizeVariable Id="3" GUI_Name="overall" Unit="3" UnitType="float" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Overall consumption" GUI_Expression="kWh" GUI_DispUnit="kWh" GUI_float="1" GUI_htmlDigitsFloat="4">
+<IOTizeVariable Id="3" GUI_Name="overall" Unit="3" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Overall consumption" GUI_Expression="kWh" GUI_DispUnit="kWh" GUI_float="1" GUI_htmlDigitsFloat="4">
 <XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="2em" GUI_showInCard="Yes" GUI_card.header.icon="power" GUI_card.header.colorName="primary" GUI_card.description="Cumulates the consumption of the device since the start of the tap." GUI_renderType="Text" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="float" />
 </IOTizeVariable>
-<IOTizeVariable Id="7" GUI_Name="maxPower" Unit="3" UnitType="float" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Maximum power pulse" GUI_DispUnit="W" GUI_float="1" GUI_htmlDigitsFloat="0">
+<IOTizeVariable Id="7" GUI_Name="maxPower" Unit="3" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Maximum power pulse" GUI_DispUnit="W" GUI_float="1" GUI_htmlDigitsFloat="0">
 <XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="1.5em" GUI_showInCard="Yes" GUI_card.header.icon="chevron-up-circle-outline" GUI_card.header.colorName="primary" GUI_card.description="Records the highest active power pulse" GUI_renderType="Text" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="float" />
 </IOTizeVariable>
-<IOTizeVariable Id="5" GUI_Name="minPower" Unit="3" UnitType="float" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Minimum power pulse" GUI_DispUnit="W" GUI_float="1" GUI_htmlDigitsFloat="0">
+<IOTizeVariable Id="5" GUI_Name="minPower" Unit="3" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Minimum power pulse" GUI_DispUnit="W" GUI_float="1" GUI_htmlDigitsFloat="0">
 <XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="1.5em" GUI_showInCard="Yes" GUI_card.header.icon="chevron-down-circle-outline" GUI_card.header.colorName="primary" GUI_card.description="Records the lowest active power pulse" GUI_renderType="Text" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="float" />
 </IOTizeVariable>
-<IOTizeVariable Id="12" GUI_Name="voltage" Unit="3" UnitType="float" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Voltage" GUI_DispUnit="V" GUI_float="1" GUI_htmlDigitsFloat="1">
+<IOTizeVariable Id="12" GUI_Name="voltage" Unit="3" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Voltage" GUI_DispUnit="V" GUI_float="1" GUI_htmlDigitsFloat="1">
 <XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="250" GUI_min="0" GUI_step="25" GUI_pin="Yes" GUI_valueFontSize="" GUI_showInCard="Yes" GUI_card.header.icon="flash" GUI_card.header.colorName="primary" GUI_card.description="" GUI_renderType="Gauge" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="float" />
 </IOTizeVariable>
-<IOTizeVariable Id="14" GUI_Name="electricCurrent" Unit="3" UnitType="float" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Electric current" GUI_DispUnit="A" GUI_float="1" GUI_htmlDigitsFloat="1">
+<IOTizeVariable Id="14" GUI_Name="electricCurrent" Unit="3" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Electric current" GUI_DispUnit="A" GUI_float="1" GUI_htmlDigitsFloat="1">
 <XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="20" GUI_min="0" GUI_step="2" GUI_pin="Yes" GUI_valueFontSize="" GUI_showInCard="Yes" GUI_card.header.icon="flash" GUI_card.header.colorName="primary" GUI_card.description="" GUI_renderType="Gauge" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="float" />
 </IOTizeVariable>
-<IOTizeVariable Id="15" GUI_Name="backupConsumption" Unit="3" UnitType="float" Quantity="2" IsInTap="1" InTap_InitialValueString="0x00000000;0x00000000;" GUI_Submit="No" GUI_Display="No">
-<XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="" GUI_showInCard="No" GUI_card.header.icon="" GUI_card.header.colorName="" GUI_card.description="" GUI_renderType="Text" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="float" />
+<IOTizeVariable Id="18" GUI_Name="counter" Unit="3" Quantity="3" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_float="1" GUI_htmlDigitsFloat="3">
+<XAppRender GUI_UnitType="float" GUI_arrayValueVariableDisplayType="duplicate" GUI_indexTemplate="" GUI_renderType="Number" GUI_editable="Yes" GUI_label="" GUI_unit="" GUI_valueFontSize="" GUI_min="0" GUI_max="0" GUI_digitsInfo="1.0-3" GUI_showInCard="Yes" GUI_card.description="" GUI_card.header.colorName="" GUI_card.header.icon="" GUI_card.header.title="" GUI_customConverter="No" />
 </IOTizeVariable>
 <IOTizeAccessControl>
-<IOTizeACL ProfileName="anonymous" Rights="read" />
+<IOTizeACL ProfileName="anonymous" Rights="read,write" />
 </IOTizeAccessControl>
 </IOTizeBundle>
 <IOTizeBundle Id="5" GUI_Name="Hours" GUI_Description="" DataLogPeriod="0x00000000" GUI_MonitoringPeriod="500">
-<IOTizeVariable Id="11" GUI_Name="lastHours" Unit="3" UnitType="float" Quantity="24" IsInTap="1" InTap_InitialValueString="0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Last 24 hours consumption" GUI_float="1" GUI_htmlDigitsFloat="3">
-<XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="1.5em" GUI_showInCard="Yes" GUI_card.header.icon="time-outline" GUI_card.header.colorName="primary" GUI_card.description="Displays the latest consumption rate for each hour" GUI_renderType="Text" GUI_content="" GUI_valueFormatting="return value + ' kWh';" GUI_indexTemplate="&lt;ion-item style=&quot;margin-top:20px&quot;&gt;\n&lt;h2&gt;\n&lt;ion-label color=&quot;dark&quot;&gt;\n&lt;p *ngIf=&quot;index == 0&quot;&gt;\n&lt;strong&gt;12:00 AM - {{index + 1}}:00 AM &lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index &lt; 11 &amp;&amp; index &gt; 0&quot;&gt;\n&lt;strong&gt;{{index}}:00 AM - {{index + 1}}:00 AM &lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index == 11&quot;&gt;\n&lt;strong&gt;{{index}}:00 AM - {{index + 1}}:00 PM &lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index == 12&quot;&gt;\n&lt;strong&gt;{{index}}:00 PM - 1:00 PM &lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index &gt; 12 &amp;&amp; index &lt; 23&quot;&gt;\n&lt;strong&gt;{{index - 12}}:00 PM - {{index - 11}}:00 PM&lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index == 23&quot;&gt;\n&lt;strong&gt;{{index - 12}}:00 PM - 12:00 AM&lt;/strong&gt;\n&lt;/p&gt;\n&lt;/ion-label&gt;\n&lt;/h2&gt;\n&lt;/ion-item&gt;" GUI_UnitType="float" />
+<IOTizeVariable Id="11" GUI_Name="lastHours" Unit="3" Quantity="24" IsInTap="1" InTap_InitialValueString="0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Last 24 hours consumption" GUI_float="1" GUI_htmlDigitsFloat="3">
+<XAppRender GUI_UnitType="float" GUI_arrayValueVariableDisplayType="duplicate" GUI_indexTemplate="&lt;ion-item style=&quot;margin-top:20px&quot;&gt;\n&lt;h2&gt;\n&lt;ion-label color=&quot;dark&quot;&gt;\n&lt;p *ngIf=&quot;index == 0&quot;&gt;\n&lt;strong&gt;12:00 AM - {{index + 1}}:00 AM &lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index &lt; 11 &amp;&amp; index &gt; 0&quot;&gt;\n&lt;strong&gt;{{index}}:00 AM - {{index + 1}}:00 AM &lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index == 11&quot;&gt;\n&lt;strong&gt;{{index}}:00 AM - {{index + 1}}:00 PM &lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index == 12&quot;&gt;\n&lt;strong&gt;{{index}}:00 PM - 1:00 PM &lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index &gt; 12 &amp;&amp; index &lt; 23&quot;&gt;\n&lt;strong&gt;{{index - 12}}:00 PM - {{index - 11}}:00 PM&lt;/strong&gt;\n&lt;/p&gt;\n&lt;p *ngIf=&quot;index == 23&quot;&gt;\n&lt;strong&gt;{{index - 12}}:00 PM - 12:00 AM&lt;/strong&gt;\n&lt;/p&gt;\n&lt;/ion-label&gt;\n&lt;/h2&gt;\n&lt;/ion-item&gt;" GUI_renderType="Text" GUI_editable="No" GUI_unit="" GUI_valueFontSize="1.5em" GUI_valueFormatting="return value + ' kWh';" GUI_minLength="0" GUI_maxLength="100" GUI_showInCard="Yes" GUI_card.description="Displays the latest consumption rate for each hour" GUI_card.header.colorName="primary" GUI_card.header.icon="time-outline" GUI_card.header.title="Last 24 hours consumption" GUI_customConverter="No" GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_content="" />
 </IOTizeVariable>
 <IOTizeAccessControl>
 <IOTizeACL ProfileName="anonymous" Rights="read" />
 </IOTizeAccessControl>
 </IOTizeBundle>
 <IOTizeBundle Id="2" GUI_Name="Days" GUI_Description="" DataLogPeriod="0x00000000" GUI_MonitoringPeriod="500">
-<IOTizeVariable Id="6" GUI_Name="lastDays" Unit="3" UnitType="float" Quantity="30" IsInTap="1" InTap_InitialValueString="0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Last 30 days consumption" GUI_float="1" GUI_htmlDigitsFloat="3">
-<XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="1.5em" GUI_showInCard="Yes" GUI_card.header.icon="today" GUI_card.header.colorName="primary" GUI_card.description="Displays consumption for the last 30 days" GUI_renderType="Text" GUI_content="" GUI_valueFormatting="return value + ' kWh';" GUI_indexTemplate="&lt;ion-item style=&quot;margin-top:20px&quot;&gt;\n&lt;h2&gt;\n&lt;ion-label color=&quot;dark&quot;&gt;\n&lt;p&gt;\n&lt;strong&gt;{{index + 1}} days earlier&lt;/strong&gt;\n&lt;/p&gt;\n&lt;/ion-label&gt;\n&lt;/h2&gt;\n&lt;/ion-item&gt;" GUI_UnitType="float" />
+<IOTizeVariable Id="6" GUI_Name="lastDays" Unit="3" Quantity="7" IsInTap="1" InTap_InitialValueString="0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Last 30 days consumption" GUI_float="1" GUI_htmlDigitsFloat="3">
+<XAppRender GUI_UnitType="float" GUI_arrayValueVariableDisplayType="duplicate" GUI_indexTemplate="&lt;ion-item style=&quot;margin-top:20px&quot;&gt;\n&lt;h2&gt;\n&lt;ion-label color=&quot;dark&quot;&gt;\n&lt;p&gt;\n&lt;strong&gt;{{index + 1}} days earlier&lt;/strong&gt;\n&lt;/p&gt;\n&lt;/ion-label&gt;\n&lt;/h2&gt;\n&lt;/ion-item&gt;" GUI_renderType="Text" GUI_editable="No" GUI_unit="" GUI_valueFontSize="1.5em" GUI_valueFormatting="return value + ' kWh';" GUI_minLength="0" GUI_maxLength="100" GUI_showInCard="Yes" GUI_card.description="Displays consumption for the last 30 days" GUI_card.header.colorName="primary" GUI_card.header.icon="today" GUI_card.header.title="Last 30 days consumption" GUI_customConverter="No" GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_content="" />
+</IOTizeVariable>
+<IOTizeVariable Id="1" GUI_Name="day_consumption" Unit="3" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Consumption of the day" GUI_DispUnit="kWh" GUI_float="1" GUI_htmlDigitsFloat="4">
+<XAppRender GUI_UnitType="float" GUI_renderType="Text" GUI_editable="No" GUI_unit="" GUI_valueFontSize="2em" GUI_valueFormatting="" GUI_minLength="0" GUI_maxLength="100" GUI_showInCard="Yes" GUI_card.description="Cumulates the consumption of the day. Starts from scratch on each new day." GUI_card.header.colorName="primary" GUI_card.header.icon="flash" GUI_card.header.title="Consumption of the day" GUI_customConverter="No" GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_content="" GUI_indexTemplate="" />
 </IOTizeVariable>
 <IOTizeAccessControl>
 <IOTizeACL ProfileName="anonymous" Rights="read" />
 </IOTizeAccessControl>
 </IOTizeBundle>
 <IOTizeBundle Id="3" GUI_Name="Months" GUI_Description="" DataLogPeriod="0x00000000" GUI_MonitoringPeriod="500">
-<IOTizeVariable Id="8" GUI_Name="lastMonths" Unit="3" UnitType="float" Quantity="12" IsInTap="1" InTap_InitialValueString="0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Last 12 months consumption" GUI_float="1" GUI_htmlDigitsFloat="3">
+<IOTizeVariable Id="8" GUI_Name="lastMonths" Unit="3" Quantity="12" IsInTap="1" InTap_InitialValueString="0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;" GUI_Submit="No" GUI_Display="Yes" GUI_Alias="Last 12 months consumption" GUI_float="1" GUI_htmlDigitsFloat="3">
 <XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="1.5em" GUI_showInCard="Yes" GUI_card.header.icon="calendar" GUI_card.header.colorName="primary" GUI_card.description="Displays consumption for the last 12 months. Updated daily." GUI_renderType="Text" GUI_content="" GUI_valueFormatting="return value+ ' kWh';" GUI_indexTemplate="&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 0&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;January&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 1&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;February&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 2&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;March&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 3&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;April&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 4&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;May&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 5&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;June&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 6&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;July&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 7&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;August&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 8&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;September&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 9&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;October&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 10&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;November&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;\n&lt;ion-item style=&quot;margin-top:20px&quot; *ngIf=&quot;index === 11&quot;&gt;&lt;h2&gt;&lt;ion-label color=&quot;dark&quot;&gt;&lt;strong&gt;December&lt;/strong&gt;&lt;/ion-label&gt;&lt;/h2&gt;&lt;/ion-item&gt;" GUI_UnitType="float" />
 </IOTizeVariable>
 <IOTizeAccessControl>
@@ -150,22 +153,22 @@
 </IOTizeAccessControl>
 </IOTizeBundle>
 <IOTizeBundle Id="4" GUI_Name="Settings" GUI_Description="" DataLogPeriod="0x00000000" GUI_MonitoringPeriod="500">
-<IOTizeVariable Id="4" GUI_Name="calWatt" Unit="3" UnitType="float" Quantity="1" IsInTap="1" InTap_InitialValueString="0.962500;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Active power factor" GUI_float="1" GUI_htmlDigitsFloat="4">
+<IOTizeVariable Id="4" GUI_Name="calWatt" Unit="3" Quantity="1" IsInTap="1" InTap_InitialValueString="0.962500;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Active power factor" GUI_float="1" GUI_htmlDigitsFloat="4">
 <XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="1.5em" GUI_showInCard="Yes" GUI_card.header.icon="settings-sharp" GUI_card.header.colorName="primary" GUI_card.description="" GUI_renderType="Text" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="float">
 <ValueMapping GUI_bitRange="" GUI_content="" GUI_value="" />
 </XAppRender>
 </IOTizeVariable>
-<IOTizeVariable Id="13" GUI_Name="calVoltage" Unit="3" UnitType="float" Quantity="1" IsInTap="1" InTap_InitialValueString="0.131100;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Voltage factor" GUI_float="1" GUI_htmlDigitsFloat="4">
+<IOTizeVariable Id="13" GUI_Name="calVoltage" Unit="3" Quantity="1" IsInTap="1" InTap_InitialValueString="0.131100;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Voltage factor" GUI_float="1" GUI_htmlDigitsFloat="4">
 <XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="1.5em" GUI_showInCard="Yes" GUI_card.header.icon="settings-sharp" GUI_card.header.colorName="primary" GUI_card.description="" GUI_renderType="Text" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="float" />
 </IOTizeVariable>
-<IOTizeVariable Id="16" GUI_Name="calElectricCurrent" Unit="3" UnitType="float" Quantity="1" IsInTap="1" InTap_InitialValueString="0.007303;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Eletric current factor" GUI_float="1" GUI_htmlDigitsFloat="4">
+<IOTizeVariable Id="16" GUI_Name="calElectricCurrent" Unit="3" Quantity="1" IsInTap="1" InTap_InitialValueString="0.007303;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Eletric current factor" GUI_float="1" GUI_htmlDigitsFloat="4">
 <XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="1.5em" GUI_showInCard="Yes" GUI_card.header.icon="settings-sharp" GUI_card.header.colorName="primary" GUI_card.description="" GUI_renderType="Text" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="float" />
 </IOTizeVariable>
-<IOTizeVariable Id="9" GUI_Name="updateShadow" Unit="1" UnitType="signed integer" Quantity="1" IsInTap="1" InTap_InitialValueString="0x00;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Update shadow on AWS">
-<XAppRender GUI_listChoices="" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="" GUI_showInCard="Yes" GUI_card.header.icon="logo-amazon" GUI_card.header.colorName="primary" GUI_card.description="Send MQTT message to AWS for update shadow on thing WatTapp" GUI_renderType="OnOff" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="signed integer" />
+<IOTizeVariable Id="9" GUI_Name="updateShadow" Unit="1" Quantity="1" IsInTap="1" InTap_InitialValueString="0x00;" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="Update shadow on AWS">
+<XAppRender GUI_UnitType="signed integer" GUI_renderType="OnOff" GUI_editable="No" GUI_textOnLeft="Off" GUI_textOnRight="On" GUI_icon="" GUI_showInCard="Yes" GUI_card.description="Send MQTT message to AWS for update shadow on thing WatTapp" GUI_card.header.colorName="primary" GUI_card.header.icon="logo-amazon" GUI_card.header.title="Update shadow on AWS" GUI_customConverter="No" GUI_listChoices="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" />
 </IOTizeVariable>
-<IOTizeVariable Id="17" GUI_Name="generalReset" Unit="1" UnitType="signed integer" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="General Reset">
-<XAppRender GUI_listChoices="1=Reset" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="" GUI_showInCard="Yes" GUI_card.header.icon="refresh-circle" GUI_card.header.colorName="primary" GUI_card.description="This button resets all VarInTap value to 0. " GUI_renderType="Buttons" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" GUI_UnitType="signed integer" />
+<IOTizeVariable Id="17" GUI_Name="generalReset" Unit="1" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="Yes" GUI_Display="Yes" GUI_Alias="General Reset">
+<XAppRender GUI_UnitType="signed integer" GUI_renderType="Buttons" GUI_listChoices="1=Reset" GUI_showInCard="Yes" GUI_card.description="This button resets all VarInTap value to 0. " GUI_card.header.colorName="primary" GUI_card.header.icon="refresh-circle" GUI_card.header.title="General Reset" GUI_customConverter="No" GUI_icon="" GUI_textOff="Off" GUI_textOn="On" GUI_max="100" GUI_min="0" GUI_step="1" GUI_pin="Yes" GUI_valueFontSize="" GUI_content="" GUI_valueFormatting="" GUI_indexTemplate="" />
 </IOTizeVariable>
 <IOTizeAccessControl>
 <IOTizeACL ProfileName="admin" Rights="read,write" />

@@ -25,6 +25,7 @@ public class WattTap {
     // ---------------
 
     private final int   LONG_FREQ_CHECK         = 4 * 60 * 1000;
+    private final int   SHADOW_FREQ_CHECK         = 10*  60 * 1000;
     private final int   BASIC_FREQ_CHECK        = 1000;
     private final int   RESOURCE_ID             = 1024;
     private final int   DAY_CONSUMPTION_ID      = 0x01;
@@ -43,6 +44,7 @@ public class WattTap {
     private final int   BACKUP_ID               = 0x0f;
     private final int   CAL_CURRENT_ELECTRIC_ID = 0x10;
     private final int   GENERAL_RESET_ID        = 0x11;
+    private final int   COUNTER_ID              = 0x12;
     private final int   WATT_TO_KWATT           = 1000;
     private final int   KWATT_TO_KWATTH         = 3600;
 
@@ -53,14 +55,15 @@ public class WattTap {
     //  TapNLinkVar, only InTap value (volatile or not)    
     // -------------------------------------------------
 
+    public  TapNLinkVarFloatArray           counter_varInTap                    = new TapNLinkVarFloatArray((short) COUNTER_ID, "COUNTER", BASIC_FREQ_CHECK, 3);
     // dayConsumption_varInTap : Contains current day consumption.
     public  TapNLinkVarFloat                dayConsumption_varInTap             = new TapNLinkVarFloat((short) DAY_CONSUMPTION_ID, "day_consumption", LONG_FREQ_CHECK);
     // backupConsumption_varInTap : Save the day consumption, to restore when tap is rebooting.
-    public  TapNLinkVarFloatArray           backupConsumption_varInTap          = new TapNLinkVarFloatArray((short) BACKUP_ID, "backupConsumption", BASIC_FREQ_CHECK, 2);
+    public  TapNLinkVarFloatArray           backupConsumption_varInTap          = new TapNLinkVarFloatArray((short) BACKUP_ID, "backupConsumption", BASIC_FREQ_CHECK, 3);
     // overall_varInTap : Contains active power consumption since tap start.
     public  TapNLinkVarFloat                overall_varInTap                    = new TapNLinkVarFloat((short) OVERALL_ID, "overall", BASIC_FREQ_CHECK);
     // lastDays_varInTap : Contains a table to display the last 30 days of use.
-    public  TapNLinkVarFloatArray           lastDays_varInTap                   = new TapNLinkVarFloatArray((short) LAST_DAYS_ID, "lastDays", BASIC_FREQ_CHECK, 30);
+    public  TapNLinkVarFloatArray           lastDays_varInTap                   = new TapNLinkVarFloatArray((short) LAST_DAYS_ID, "lastDays", BASIC_FREQ_CHECK, 7);
     // lastMonths_varInTap : Contains a table to display the last 12 months of use.
     public  TapNLinkVarFloatArray           lastMonths_varInTap                 = new TapNLinkVarFloatArray((short) LAST_MONTHS_ID, "lastMonths", BASIC_FREQ_CHECK, 12);
     // lastHours_varInTap : Contains a table to display the 24 hours of use.
@@ -78,9 +81,9 @@ public class WattTap {
     // calCurrent_varInTap : Defines the calibration watt for optimise the active power consumption.
     public  TapNLinkVarFloat                calCurrent_varInTap                 = new TapNLinkVarFloat((short) CAL_CURRENT_ELECTRIC_ID, "calCurrent", BASIC_FREQ_CHECK);
     // awsShadowUpdate_varInTap : Refreshing aws_shadow for thing WattTap
-    public  TapNLinkVarInt                  awsShadowUpdate_varInTap            = new TapNLinkVarInt((short) AWS_SHADOW_UPDATE_ID, VariableType.INT8, "updateShadow", LONG_FREQ_CHECK);
+    public  TapNLinkVarInt                  awsShadowUpdate_varInTap            = new TapNLinkVarInt((short) AWS_SHADOW_UPDATE_ID, VariableType.INT8, "updateShadow", SHADOW_FREQ_CHECK);
     // generalReset_varInTap : When this value is define to 1, the all VarInTap value has define to 0.
-    public  TapNLinkVarInt                  generalReset_varInTap                 = new TapNLinkVarInt((short) GENERAL_RESET_ID, VariableType.INT8, "generalReset", BASIC_FREQ_CHECK);
+    public  TapNLinkVarInt                  generalReset_varInTap               = new TapNLinkVarInt((short) GENERAL_RESET_ID, VariableType.INT8, "generalReset", BASIC_FREQ_CHECK);
     // current_varInTap : Contains the electric current find by the CLK Pin
     public  TapNLinkVarFloat                current_varInTap                    = new TapNLinkVarFloat((short) INTENSITY_ID, "electricCurrent", BASIC_FREQ_CHECK);
     // voltage_varInTap : Contains the voltage find by the CLK Pin
@@ -96,7 +99,7 @@ public class WattTap {
     // date : Define de absolute time from tap
     private byte[]          date                                = new byte[36];
     // lastDaysConsumption : This table is used to store the consumption of the last 30 days
-    private float[]         lastDaysConsumption                 = new float[30];
+    private float[]         lastDaysConsumption                 = new float[7];
     // lastMonthsConsumption : This table is used to store the consumption of the last 12 months
     private float[]         lastMonthsConsumption               = new float[12];
     // lastHoursConsumption : This table is used to store the consumption of the last 24 hours
@@ -129,20 +132,70 @@ public class WattTap {
     private int             currentDay, currentMonth, currentHour;
     // oldConsumptionDay, oldconsumptionMonth, oldConsumptionHour : Backup the day and month of consumption to prevent the change of day or month
     private int             oldConsumptionDay, oldconsumptionMonth, oldConsumptionHour;
+
+    private float           overallValueFromStartCounter = 0;
+    private int             counterTimeAtStart           = 0;
+    private int		counterPause = 0;
+private float startPauseOverall = 0;
+private float counterOverallPause = 0;
+private boolean startPause = false;
+private int startPauseTime = 0;
     
     /**
      * onCheck method is called for each TapNLinkVar declared in the Java class. This frequency is defined in the TapNLinkVar constructors
      */
     public void onCheck(final int id) {
 
+        if(id == COUNTER_ID) {
+            float[] counterTab = counter_varInTap.getValue();
+            if(counterTab[1] == 1) {
+                if(startPause) {
+                    counterPause = system.getTime() - startPauseTime;
+	                counterOverallPause = overall_varInTap.getValue() - startPauseOverall;
+                    overallValueFromStartCounter += counterOverallPause;
+                    counterTimeAtStart += counterPause;
+                }
+                if(overallValueFromStartCounter == 0) {
+                    overallValueFromStartCounter = overall_varInTap.getValue();
+                }
+                if(counterTimeAtStart == 0) {
+                    counterTimeAtStart = system.getTime();
+                }
+                counterTab[0] = overall_varInTap.getValue() - overallValueFromStartCounter;
+                counterTab[2] = system.getTime() - counterTimeAtStart;
+                startPause = false;
+            } else if (counterTab[1] == 2) {
+                counterTab[0] = 0;
+                counterTab[1] = 0;
+                counterTab[2] = 0;
+                counterTimeAtStart = 0;
+	            counterPause = 0;
+                overallValueFromStartCounter = 0;
+	            counterOverallPause = 0;
+                startPauseOverall = 0;
+                startPauseTime= 0;
+                startPause = false;
+            } else if (counterTab[1] == 3) {
+                if(!startPause) {
+	                startPauseTime = system.getTime();
+	                startPauseOverall = overall_varInTap.getValue();
+                }
+	            startPause = true;
+	            counterPause = system.getTime() - startPauseTime;
+	            counterOverallPause = overall_varInTap.getValue() - startPauseOverall;
+            }
+            counter_varInTap.setValue(counterTab);
+        }
+
         /**
          * Updates the backup to restore day consumption.
          * every LONG_FREQ_CHECK, save the current day consumption.
          */
         if(id == DAY_CONSUMPTION_ID && initDone) {
-            float[] backup = new float[2];
+            float[] backup = new float[3];
             backup[0] = backupDayConsumption;
             backup[1] = consumptionOfTheDay;
+            backup[2] = overall_varInTap.getValue();
             backupConsumption_varInTap.setValue(backup);
         }
 
@@ -150,9 +203,9 @@ public class WattTap {
          * Updates the Shadow of Thing WattTap on AWS via MQTT message.
          * if value = 0, the message doesn't be send.
          */
-        if(id == AWS_SHADOW_UPDATE_ID && awsShadowUpdate_varInTap.getValue() == 1) {
-            system.sendMQTTMessage("$aws/things/WattTap/shadow/name/inUse/update",
-                "{\"state\": {\"reported\": {\"ID\": \"WattTap\", \"CurrentDayConsumption\": " + consumptionOfTheDay + " ,\"maxWattInUse\": "+ maxPower_W_varInTap.getValue() +"}}}", 0);
+        if(id == AWS_SHADOW_UPDATE_ID &&  awsShadowUpdate_varInTap.getValue() == 1) {
+            system.sendMQTTMessage("$aws/things/WattMeter/shadow/name/inUse/update",
+                "{\"state\": {\"reported\": {\"ID\": \"WattMeter\", \"CurrentDayConsumption\": " + consumptionOfTheDay + " ,\"maxWattInUse\": "+ maxPower_W_varInTap.getValue() +"}}}", 0);
         }
 
         // This part calculates according to the pulses recovered the consumption and the active power. This method has called every second.
@@ -219,28 +272,15 @@ public class WattTap {
 
             // Check if the current hour is already the same has last check call
             if(currentHour != oldConsumptionHour) {
-                // Define the consumption of last hour on lastHourConsumption array
-                if(currentHour == 0) {
-                    lastHoursConsumption[lastHoursConsumption.length - 1] = consumptionOfTheHour;
-                } else {
-                    lastHoursConsumption[currentHour - 1] = consumptionOfTheHour;
-                }
+                lastHoursConsumption[oldConsumptionHour] = consumptionOfTheHour;
                 // Check is the current day is already the same has last check call.
                 if(oldConsumptionDay != currentDay) {
-                    // This loop allows you to manage the consumption of the last 30 days. It shifts the last value by one rank.
-                    for(int i = lastDaysConsumption.length - 1; i > 0; i--) {
-                        lastDaysConsumption[i] = lastDaysConsumption[i - 1];
-                    }
-                    // Once all the values have been moved, we modify the first of the table with the consumption of the previous day.
-                    lastDaysConsumption[0] = consumptionOfTheDay;
+	      lastDaysConsumption[oldConsumptionDay - 1] = consumptionOfTheDay;
                     /**
-                    * If the month has changed then the previous month’s consumption is updated in the table
+                    * If the month has changed then the previous month�s consumption is updated in the table
                     */
-                    if(currentMonth == 1) {
-                        lastMonthsConsumption[lastMonthsConsumption.length - 1] += consumptionOfTheDay;
-                    } else {
-                        lastMonthsConsumption[currentMonth - 1] += consumptionOfTheDay;
-                    }
+                   lastMonthsConsumption[oldconsumptionMonth - 1] += consumptionOfTheDay;
+
                     if(oldconsumptionMonth != currentMonth) { 
                         lastMonthsConsumption[currentMonth - 1] = 0;
                     }
@@ -274,7 +314,7 @@ public class WattTap {
             maxPower_W_varInTap.setValue(0);
             minPower_W_varInTap.setValue(0);
             generalReset_varInTap.setValue(0x00);
-            backupConsumption_varInTap.setValue(new float[2]);
+            backupConsumption_varInTap.setValue(new float[3]);
             consumptionOfTheDay = 0;
             consumptionOfTheHour = 0;
             consumptionOfTheMonth = 0;
@@ -301,6 +341,7 @@ public class WattTap {
             consumptionOfTheDay = backupConsumption_varInTap.getValue()[1];
             dayConsumption_varInTap.setValue(backupConsumption_varInTap.getValue()[1]);
         }
+        overall_varInTap.setValue(backupConsumption_varInTap.getValue()[2]);
         // If the jvm has been reboot, we recovered no volatile value on tap.
         lastDaysConsumption = lastDays_varInTap.getValue();
         lastMonthsConsumption = lastMonths_varInTap.getValue();
