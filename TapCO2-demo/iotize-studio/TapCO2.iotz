@@ -1,0 +1,152 @@
+﻿<?xml version="1.0"?>
+<IOTizeConfiguration Version="2.9.0" Lock="24">
+<GUI_Environment StoreVarInfo="false" UseInternalJVM="true" Locked="false" Autoincrement="false" AutoSyncTime="true" DocVerboseLevel="3" DocLogVerboseLevel="3" DocLogFileName="" AdminPWD="admin" SmartPhoneStoragePath="" />
+<GUI_XAppConfig useServer="yes">
+<GUI_app path="" version="0.0.1" cloudProjectId="tapco2-jp4xw" />
+<GUI_layout col="1" mode="One page per bundle" />
+<GUI_logo image="app\resources\icon.png" />
+<GUI_splashScreen image="app\resources\splash.png" />
+<GUI_appTheme primary="8708069" secondary="840168" tertiary="7357695" />
+<GUI_hostProtocols>
+<GUI_nfc enabled="true" energyHarvesting="false" />
+<GUI_ble enabled="true" />
+<GUI_socket enabled="true" rememberLastDevices="true" />
+<GUI_mqtt enabled="true" rememberLastDevices="true" />
+</GUI_hostProtocols>
+<GUI_pages>
+<GUI_TapInfoPage enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info" enabled="true" pageTitle="Device Info">
+<GUI_infosn enabled="true" />
+<GUI_infosn />
+<GUI_infofwver enabled="true" />
+<GUI_infofwver />
+<GUI_infocfgver enabled="true" />
+<GUI_infocfgver />
+<GUI_infoappname enabled="true" />
+<GUI_infoappname />
+<items key="serialNumber" />
+<items key="tapFirmwareVersion" />
+<items key="configVersion" />
+<items key="appName" />
+</GUI_TapInfoPage>
+<GUI_AboutPage enabled="false" pageTitle="About" showAppVersion="No" developerName="" appDescription="" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" enabled="false" pageTitle="About" />
+<GUI_TargetProtocolConfPage enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" enabled="false" pageTitle="Target Protocol Settings" />
+<GUI_TapSupervisionPage enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" enabled="false" pageTitle="Administration" />
+<GUI_TapConnectivitySettingsPage enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" enabled="true" pageTitle="Connectivity settings" />
+</GUI_pages>
+</GUI_XAppConfig>
+<IOTizeApp Name="TapCO2" ProductCode="TapCO2" DevIoTizeSN="IoTize006100001288" InterfaceLock="24" Scram_Hash_It="5000" GUI_Path="$4/com.mycompany.appcahb" GUI_WebSpePath="" Path="$6/IoTize000000000000/IoTize000000000000.html" TimeZoneStr="UTC-1" GUI_TargetType="0" TargetProtocol="DirectIO" GUI_S3Pmode="1" S3Pmode="1" S3PDelay="1" GUI_Modbus_GenerateAddr="yes" TargetProtocolConfDataLen="8" TargetProtocolConfData="0001000a01002580" WebLink="https://www.iotize.com" AAR="com.mycompany.appcahb" HostProtocol="FFFF" Firmware="1.0.0" Config="1.0.0" NFCPairingMandatory="No" BLEPairingRequest="0" NFCInterruptionLock="0" NFCLogin="0" LowPowerLevel="0" LowPowerHostTimeout="30" JVM_Custom_Code="" JVM_CodeSize="8" JVM_HeapSize="16" JVM_StackSize="32" JVM_HandleSize="128">
+<USB_Aliases />
+<LoRa_Info LoRaMode="0" />
+<WIFI_Info Network="P2P" ModuleSSID="" Module_AP_SSID="TAP" Module_AP_WEPKey="ABCD1234" ModuleWEPKey="" Cloud_Publish_Topic="" Cloud_Subscribe_Topic="" MQTTRelay_URL="user.cloud.iotize.com" MQTTRelay_Client_ID="erz12474" MQTTRelay_Broker_Login="IoTizeTestUser" MQTTRelay_Passwd="" MQTTRelay_Service="1883" Broker_Certificate="" Wifi_SSID_Hidden="0" Wifi_WEPKey_Hidden="1" />
+<GUI_Reader Name="" />
+<GUI_ConnectionMode Value="2" />
+<GUI_CryptoMode Value="100" />
+<GUI_MQTT_Info>
+<GUI_MQTTCloudEnable Value="1" />
+<GUI_DevMQTTHostName Name="user.cloud.iotize.com" />
+<GUI_DevMQTTServiceName Name="1883" />
+<GUI_DevMQTT_UID Name="%%UID%%" />
+<GUI_DevMQTT_ClientID Name="IoTize004100000000" />
+<GUI_DevMQTT_Certificate Name="" />
+<GUI_DevMQTT_PrivateKey Name="" />
+<GUI_DevMQTT_Login Name="IoTize006100001003" />
+<GUI_DevMQTT_Password Name="IoTize006100001003_0000000000" />
+<GUI_DevMQTT_BrokerCertificate Name="" />
+<GUI_DevMQTTSelection Value="false" />
+<GUI_DevMQTTTopicAnswer Name="" />
+<GUI_DevMQTTTopicPrefix Name="" />
+<GUI_DevMQTTIBMAPIKey Name="" />
+<GUI_DevMQTTIBMAPIToken Name="" />
+</GUI_MQTT_Info>
+<GUI_DevMQTTHostName Name="user.cloud.iotize.com" />
+<GUI_DevMQTTSelection Value="false" />
+<GUI_DevMQTTServiceName Name="1883" />
+<GUI_DevMQTT_UID Name="%%UID%%" />
+<GUI_DevSocketHostName Name="192.168.20.108" />
+<GUI_DevSocketServiceName Name="2000" />
+<GUI_DevBLEDeviceName Name="" />
+<GUI_DevUARTCOM Port="COM1" />
+<GUI_DevNetkey Name="testnetkey" />
+<GUI_ElfFile PathName="" Description="" />
+<GUI_SVDFile PathName="" />
+<GUI_AppDevServer port="4210" />
+<GUI_HTML Generate="yes" Prefix="HTML_TEST" Home="IoTize000000000000.html" />
+<GUI_CSSAuto Auto="yes" />
+<GUI_CSSFile PathName="" />
+<GUI_htmlHideLogin Hide="no" />
+<GUI_htmlDigitsFloat Value="3" />
+<CloudServices CloudEnable="4" CloudSendConf="Yes" CloudMqttPeriod="0" CloudUserId="0">
+<CloudHostName Name="user.cloud.iotize.com" />
+<CloudServiceName Name="1883" />
+<CloudMQTT_UID Name="" />
+<ProductKey_UID Name="RQNW9GXBNLIC97" />
+<CloudMQTT_USERNAME Name="IoTize006100001288" />
+<IBMOrgID Name="" />
+<IBMDeviceType Name="" />
+<IBMDeviceID Name="" />
+<IBMDeviceToken Name="" />
+<IBMRootCertificate />
+<AWSCustomEndpoint Name="" />
+<AWSThingName Name="TapCO2" />
+<DeviceCertificate Name="" />
+<DevicePrivateKey Name="" />
+<AWSRootCertificate Name="" />
+</CloudServices>
+</IOTizeApp>
+<IOTizeProfile GroupId="0" Id="0" Name="anonymous" LifeTime="300" Pwd="" GUI_Description="Guest without login/password. This profile is predefined in IoTize." GUI_BackColor="662314" GUI_ManagedByApp="Yes" GUI_AppPageTitle="CO2 in air" GUI_HTMLHome="" />
+<IOTizeProfile GroupId="65535" Id="65535" Name="admin" LifeTime="300" Pwd="0155AFFC023AFF6882F56A4E0D9C5466" Scram_Pwd="71021731D915B74BE11F8C9E4C4ACB1486E4A5C99EA79418DCBA25C2AD5AB053636EBC07" Scram_User_Salt="1668201479" GUI_Description="Administrator (admin) login. This profile is predefined in IoTize, with default password admin" GUI_BackColor="736057" GUI_ManagedByApp="Yes" GUI_AppPageTitle="CO2 in air" GUI_HTMLHome="" />
+<IOTizeProfile GroupId="65534" Id="65534" Name="supervisor" LifeTime="300" Pwd="99C243D5F82EB712C281D5FFE7D12097" Scram_Pwd="8761C51B8C0A038CDB60995C554AC641526E44781FB13FB69B94E566AB7883468C3D963F" Scram_User_Salt="2352846399" GUI_Description="The supervisor is allowed to modify the login/password of the users, with default password supervisor" GUI_BackColor="3026478" GUI_ManagedByApp="Yes" GUI_AppPageTitle="CO2 in air" GUI_HTMLHome="" />
+<IOTizeBundle Id="1" GUI_Name="State" GUI_Description="" DataLogPeriod="0x00000000" GUI_MonitoringPeriod="500">
+<IOTizeVariable Id="2" GUI_Name="InstantValue" Unit="3" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_float="1" GUI_htmlDigitsFloat="4">
+<XAppRender GUI_UnitType="float" GUI_renderType="Chart" GUI_xAxis="Yes" GUI_yAxis="Yes" GUI_showLegend="No" GUI_valueCountLimit="30" GUI_showInCard="Yes" GUI_card.description="" GUI_card.header.colorName="primary" GUI_card.header.icon="analytics-outline" GUI_card.header.title="Instant Value" GUI_customConverter="No" GUI_autoScale="Yes" GUI_orientation="vertical" GUI_history="Yes" GUI_countLimitHistory="10" GUI_showXAxis="Yes" GUI_showYAxis="Yes" GUI_editable="No" GUI_label="" GUI_unit="" GUI_valueFontSize="" GUI_min="0" GUI_max="0" GUI_digitsInfo="" />
+</IOTizeVariable>
+<IOTizeVariable Id="5" GUI_Name="OverallAverage" Unit="3" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_float="1" GUI_htmlDigitsFloat="2">
+<XAppRender GUI_UnitType="float" GUI_renderType="Number" GUI_editable="No" GUI_label="" GUI_unit="" GUI_valueFontSize="2em" GUI_min="0" GUI_max="0" GUI_digitsInfo="1.1-2" GUI_showInCard="Yes" GUI_card.description="" GUI_card.header.colorName="primary" GUI_card.header.icon="server" GUI_card.header.title="Overall Average" GUI_customConverter="No" />
+</IOTizeVariable>
+<IOTizeVariable Id="6" GUI_Name="Temperature" Unit="3" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_float="1" GUI_htmlDigitsFloat="2">
+<XAppRender GUI_UnitType="float" GUI_renderType="Number" GUI_editable="No" GUI_label="" GUI_unit="" GUI_valueFontSize="2em" GUI_min="0" GUI_max="0" GUI_digitsInfo="1.1-2" GUI_showInCard="Yes" GUI_card.description="" GUI_card.header.colorName="" GUI_card.header.icon="" GUI_card.header.title="" GUI_customConverter="No" />
+</IOTizeVariable>
+<IOTizeVariable Id="7" GUI_Name="CurrentHourAverage" Unit="3" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_float="1" GUI_htmlDigitsFloat="2">
+<XAppRender GUI_UnitType="float" GUI_renderType="Number" GUI_editable="No" GUI_label="" GUI_unit="" GUI_valueFontSize="2em" GUI_min="0" GUI_max="0" GUI_digitsInfo="1.1-2" GUI_showInCard="Yes" GUI_card.description="" GUI_card.header.colorName="primary" GUI_card.header.icon="timer-outline" GUI_card.header.title="Current Hour Average" GUI_customConverter="No" />
+</IOTizeVariable>
+<IOTizeVariable Id="1" GUI_Name="CurrentDayAverage" Unit="3" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes" GUI_float="1" GUI_htmlDigitsFloat="2">
+<XAppRender GUI_UnitType="float" GUI_renderType="Number" GUI_editable="No" GUI_label="" GUI_unit="" GUI_valueFontSize="2em" GUI_min="0" GUI_max="0" GUI_digitsInfo="1.1-2" GUI_showInCard="Yes" GUI_card.description="" GUI_card.header.colorName="primary" GUI_card.header.icon="today" GUI_card.header.title="Current Day Average" GUI_customConverter="No" />
+</IOTizeVariable>
+<IOTizeAccessControl>
+<IOTizeACL ProfileName="anonymous" Rights="read,write" />
+</IOTizeAccessControl>
+</IOTizeBundle>
+<IOTizeBundle Id="2" GUI_Name="Hours" GUI_Description="" DataLogPeriod="0x00000000" GUI_MonitoringPeriod="500">
+<IOTizeVariable Id="8" GUI_Name="LastHours" Unit="3" Quantity="24" IsInTap="1" InTap_InitialValueString="0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;" GUI_Submit="No" GUI_Display="Yes" GUI_float="1" GUI_htmlDigitsFloat="3">
+<XAppRender GUI_UnitType="float" GUI_arrayValueVariableDisplayType="single" GUI_renderType="BarChart" GUI_orientation="horizontal" GUI_history="No" GUI_valueCountLimit="10" GUI_showXAxis="Yes" GUI_showYAxis="Yes" GUI_showInCard="Yes" GUI_card.description="" GUI_card.header.colorName="primary" GUI_card.header.icon="time" GUI_card.header.title="Last Hours" GUI_customConverter="No" GUI_countLimitHistory="0" GUI_indexTemplate="" GUI_editable="No" GUI_label="" GUI_unit="" GUI_valueFontSize="" GUI_min="0" GUI_max="0" GUI_digitsInfo="" GUI_reorderable="Yes" />
+</IOTizeVariable>
+<IOTizeAccessControl>
+<IOTizeACL ProfileName="anonymous" Rights="read,write" />
+</IOTizeAccessControl>
+</IOTizeBundle>
+<IOTizeBundle Id="3" GUI_Name="Days" GUI_Description="" DataLogPeriod="0x00000000" GUI_MonitoringPeriod="500">
+<IOTizeVariable Id="9" GUI_Name="LastDays" Unit="3" Quantity="7" IsInTap="1" InTap_InitialValueString="0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;0.000000;" GUI_Submit="No" GUI_Display="Yes" GUI_float="1" GUI_htmlDigitsFloat="3">
+<XAppRender GUI_UnitType="float" GUI_arrayValueVariableDisplayType="single" GUI_renderType="BarChart" GUI_history="No" GUI_valueCountLimit="10" GUI_reorderable="Yes" GUI_showInCard="No" GUI_customConverter="No" GUI_orientation="vertical" GUI_showXAxis="Yes" GUI_showYAxis="Yes" GUI_countLimitHistory="0" GUI_card.description="" GUI_card.header.colorName="primary" GUI_card.header.icon="calendar" GUI_card.header.title="Last Days" GUI_indexTemplate="" GUI_editable="No" GUI_label="" GUI_unit="" GUI_valueFontSize="" GUI_min="0" GUI_max="0" GUI_digitsInfo="" />
+</IOTizeVariable>
+<IOTizeAccessControl>
+<IOTizeACL ProfileName="anonymous" Rights="read,write" />
+</IOTizeAccessControl>
+</IOTizeBundle>
+<IOTizeBundle Id="5" GUI_Name="Control" GUI_Description="" DataLogPeriod="0x00000000" GUI_MonitoringPeriod="500">
+<IOTizeVariable Id="3" GUI_Name="Backup" Unit="3" Quantity="5" IsInTap="1" InTap_InitialValueString="0x00000000;0x00000000;0x00000000;0x00000000;0x00000000;" GUI_Submit="No" GUI_Display="No">
+<XAppRender GUI_UnitType="unsigned integer" GUI_arrayValueVariableDisplayType="duplicate" GUI_indexTemplate="" GUI_renderType="Number" GUI_editable="No" GUI_label="" GUI_unit="" GUI_valueFontSize="" GUI_min="0" GUI_max="0" GUI_digitsInfo="" GUI_showInCard="Yes" GUI_card.description="" GUI_card.header.colorName="" GUI_card.header.icon="" GUI_card.header.title="" GUI_customConverter="No" />
+</IOTizeVariable>
+<IOTizeVariable Id="4" GUI_Name="WarningLimit" Unit="1" Quantity="1" IsInTap="1" InTap_InitialValueString="0x04;" GUI_Submit="No" GUI_Display="Yes" GUI_float="1">
+<XAppRender GUI_UnitType="unsigned integer" GUI_renderType="Number" GUI_editable="No" GUI_label="" GUI_unit="" GUI_valueFontSize="" GUI_min="0" GUI_max="0" GUI_digitsInfo="" GUI_showInCard="Yes" GUI_card.description="" GUI_card.header.colorName="" GUI_card.header.icon="" GUI_card.header.title="" GUI_customConverter="No" />
+</IOTizeVariable>
+<IOTizeVariable Id="11" GUI_Name="CalibrationMode" Unit="1" Quantity="1" IsInTap="1" InTap_InitialValueString="0x00;" GUI_Submit="No" GUI_Display="Yes">
+<XAppRender GUI_UnitType="unsigned integer" GUI_renderType="OnOff" GUI_editable="Yes" GUI_textOnLeft="Automatic self" GUI_textOnRight="Forced" GUI_icon="" GUI_showInCard="Yes" GUI_card.description="" GUI_card.header.colorName="primary" GUI_card.header.icon="" GUI_card.header.title="" GUI_customConverter="No" GUI_label="" GUI_unit="" GUI_valueFontSize="" GUI_min="0" GUI_max="0" GUI_digitsInfo="" />
+</IOTizeVariable>
+<IOTizeVariable Id="12" GUI_Name="ValueCalibration" Unit="1" Quantity="1" IsInTap="1" InTap_InitialValueString="0x05;" GUI_Submit="No" GUI_Display="Yes">
+<XAppRender GUI_UnitType="unsigned integer" GUI_renderType="Number" GUI_editable="No" GUI_label="" GUI_unit="" GUI_valueFontSize="" GUI_min="0" GUI_max="0" GUI_digitsInfo="" GUI_showInCard="Yes" GUI_card.description="" GUI_card.header.colorName="" GUI_card.header.icon="" GUI_card.header.title="" GUI_customConverter="No" />
+</IOTizeVariable>
+<IOTizeAccessControl>
+<IOTizeACL ProfileName="admin" Rights="read,write" />
+</IOTizeAccessControl>
+</IOTizeBundle>
+</IOTizeConfiguration>
