@@ -29,14 +29,17 @@ The main components in this project, and where you can purchase them are:
 
 ## How it Works
 
-The pictures below show the hardware set up :
+The components are placed in a case with holes for a better quality of results. The pictures below show the hardware set up :
 
 <p align="center">
 <img src="https://github.com/iotize-sas/Open-Projects/blob/main/TapCO2-demo/doc/images/1.jpg" width="250">
 </p>
 <p align="center">
-    <em>TapCO2 composants</em>
+    <em>TapCO2 components</em>
 </p>
+
+- Tap and CO2 Sensor are separated so that the heat released by Tap does not affect the recovered values.
+
 <p align="center">
 <img src="https://github.com/iotize-sas/Open-Projects/blob/main/TapCO2-demo/doc/images/2.jpg" width="250">
 </p>
@@ -44,12 +47,16 @@ The pictures below show the hardware set up :
     <em>The CO2 sensor</em>
 </p>
 
+- The co2 sensor is powered by the battery.
+
 <p align="center">
 <img src="https://github.com/iotize-sas/Open-Projects/blob/main/TapCO2-demo/doc/images/3.jpg" width="250">
 </p>
 <p align="center">
     <em>TapNLink</em>
 </p>
+
+- The Tap is connected to the CO2 sensor by I2C and is powered by the sensor.
 
 ## Overview
 
@@ -65,8 +72,11 @@ The general diagram shows the battery connected to the sensor. The TapNLink modu
 
 ## Schematic 
 
-<p>
-In progress ...
+<p align="center">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/TapCO2-demo/doc/images/schematic.png">
+</p>
+<p align="center">
+    <em>Electrical diagram</em>
 </p>
 
 ## Java Code
