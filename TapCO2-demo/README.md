@@ -119,3 +119,10 @@ In the `Java` code executed by the `JVM`, the `onCheck()` method is called perio
 <p align="center">
     <em>Viewing in the app</em>
 </p>
+
+## Known issues
+-  we have designed the plastic case for a specific battery: Duracell Powerbank 3350 mAh. This battery features an automatic power off when the consumption is too low, and the problem was to increase the consumption in order to avoir the automatic power off... The solution we found consists in configuring the TapNLink in Access Point (the consumption is higher that in Station mode) and to discard any 'low power' option. Unfortunately, the device is not able to sendMQTT messages (alarm to the Cloud) when it is in Access Point mode... For sure, it would be better to replace the battery by another that does not switch off the power!
+-  because of the 3.3V regulator, the temperature of the sensor board is too high. It impacts on the quality measurement (even more because of the previous issue). 
+-  in the same way, it would be much better to get the current atmospheric pressure from the Cloud. But the first issue cancel any direct internet connection... 
+
+In conclusion, the measurement are neither very accurate nor very stable. Replacing the battery would be a first good step (it would allow to reduce the overall consumption, the temperature of the sensor board and finally it would provide an access to the internet). 
