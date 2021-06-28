@@ -1,6 +1,9 @@
 # WattTap
 
-![Demo](https://github.com/iotize-sas/Open-Projects/blob/main/WattTap-demo/doc/WattTap_demo.mp4)
+
+https://user-images.githubusercontent.com/38251071/123656314-18246400-d830-11eb-9628-80c02c4a8b3a.mp4
+
+
 
 This project creates a connected Wattmeter using a TapNLink module. The project uses TapNLink's embedded Java Virtual Machine (JVM) as the application processor. The JVM runs a simple Java program retrieves power consumption data from the Wattmeter.
 
