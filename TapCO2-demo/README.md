@@ -26,10 +26,11 @@ The project has 4 folders:
 
 The main components in this project, and where you can purchase them are:
 - The TapNLink communication module [is available from these distributors](https://www.iotize.com/iotize-distributors.html).
+- A CO2 sensor (STC31-R3) from Sensirion connected to the Tap by I²C. 
 
 ## How it Works
 
-The components are placed in a case with holes for a better quality of results. The pictures below show the hardware set up :
+The components are placed in a plastic case (vertical cylinder) with a few holes for aeration. The pictures below show the hardware set up :
 
 <p align="center">
 <img src="https://github.com/iotize-sas/Open-Projects/blob/main/TapCO2-demo/doc/images/1.jpg" width="250">
@@ -38,7 +39,7 @@ The components are placed in a case with holes for a better quality of results. 
     <em>TapCO2 components</em>
 </p>
 
-- Tap and CO2 Sensor are separated so that the heat released by Tap does not affect the recovered values.
+- Tap and CO2 Sensor are separated so that the heat released by Tap does not affect the recovered values (but the heat from the regulator impacts the measurement).
 
 <p align="center">
 <img src="https://github.com/iotize-sas/Open-Projects/blob/main/TapCO2-demo/doc/images/2.jpg" width="250">
@@ -47,7 +48,7 @@ The components are placed in a case with holes for a better quality of results. 
     <em>The CO2 sensor</em>
 </p>
 
-- The co2 sensor is powered by the battery.
+- The co2 sensor is powered by the 5V power pack USB battery.
 
 <p align="center">
 <img src="https://github.com/iotize-sas/Open-Projects/blob/main/TapCO2-demo/doc/images/3.jpg" width="250">
@@ -56,7 +57,7 @@ The components are placed in a case with holes for a better quality of results. 
     <em>TapNLink</em>
 </p>
 
-- The Tap is connected to the CO2 sensor by I2C and is powered by the sensor.
+- The Tap is connected to the CO2 sensor by I2C and is powered by the sensor board. Note that the regulator is (unfortunately) on the same board that the sensor. This is NOT a good idea because the quality of the measurement depends on the temperature. But it makes things easier since we use a 5V USB rechargeable battery (power pack). 
 
 ## Overview
 
