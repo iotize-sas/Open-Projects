@@ -1,5 +1,11 @@
 # ThermosTap
 
+
+
+https://user-images.githubusercontent.com/38251071/123784973-452c5180-d8d8-11eb-8f9c-426f9c81eeb0.mp4
+
+
+
 This project creates a connected temperature sensor that is used as a thermostat from a TapNLink module. The project uses TapNLink's embedded Java Virtual Machine (JVM) as the application processor. The JVM runs a simple Java program to drive the temperature sensor. 
 
 ## *** WARNING ***
