@@ -39,7 +39,7 @@ The main components used in this project are:
 ## How it Works
 
 <p align="center">
-<img src="https://github.com/iotize-sas/Open-Projects/blob/main/ThermosTap-demo/doc/images/picture_1.png" width="500">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/ThermosTap-demo/doc/images/picture_1.jpg" width="500">
 </p>
 <p align="center">
     <em>The hardware setup</em>
