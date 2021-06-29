@@ -2,7 +2,7 @@
 
 
 
-https://user-images.githubusercontent.com/38251071/123762612-43a45e80-d8c3-11eb-8e61-0bc675535db3.mp4
+<video src="https://user-images.githubusercontent.com/38251071/123762612-43a45e80-d8c3-11eb-8e61-0bc675535db3.mp4" style="width: 250px;margin: auto;display: flex;max-width: 100%;" controls="">https://user-images.githubusercontent.com/38251071/123762612-43a45e80-d8c3-11eb-8e61-0bc675535db3.mp4</video>
 
 
 
