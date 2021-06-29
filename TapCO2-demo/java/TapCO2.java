@@ -84,9 +84,9 @@ public class TapCO2 {
         this.topic = new String(topicPrefixPayload) + "/result";
         disableCRC();
         defineBinaryGasToCo2InAir();
-        // disableAutomaticSelfCalibration();
-        enableAutomaticSelfCalibration();
-        // forcedRecalibration();
+        disableAutomaticSelfCalibration();
+        //enableAutomaticSelfCalibration();
+        forcedRecalibration();
     }
 
 
@@ -135,7 +135,9 @@ public class TapCO2 {
                 init();
             }
         
-            float valAfterCal = measureGasConcentration();
+            float value = measureGasConcentration();
+            float valueAndOlderToCal = (instantValue_varInTap.getValue() * valueCalibration_varInTap.getValue()) + value;
+            float valAfterCal = valueAndOlderToCal / (valueCalibration_varInTap.getValue() + 1);
             instantValue_varInTap.setValue(valAfterCal);
 
             /**
@@ -285,8 +287,8 @@ public class TapCO2 {
         valCO2 = valCO2 / 32768;
         valCO2 = valCO2 * 100;
         temperature_varInTap.setValue(((reader[2] *256 + reader[3]) / 200) - 7);
-        if(valCO2 < 0) {
-           return 0;
+        if(valCO2 < 0.03f) {
+           return 0.03f;
         }
         return valCO2;
     }
