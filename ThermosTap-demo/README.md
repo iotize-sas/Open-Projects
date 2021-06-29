@@ -30,8 +30,6 @@ The project has 4 folders:
 The main components used in this project are:
 - TapNLink (the communication module), [it's here](https://www.digikey.fr/product-detail/fr/iotize/TNL-FIT203/2087-TNL-FIT203-ND/12397002).
 
->> This example shown here of this project uses the [REva evaluation board](https://www.raisonance.com/reva.html) example, although, this board is not required.
-
 ## How it Works
 
 <p align="center">
