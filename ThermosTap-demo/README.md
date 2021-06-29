@@ -1,4 +1,16 @@
+# ThermosTap
+
 This project creates a connected temperature sensor that is used as a thermostat from a TapNLink module. The project uses TapNLink's embedded Java Virtual Machine (JVM) as the application processor. The JVM runs a simple Java program to drive the temperature sensor. 
+
+## *** WARNING ***
+
+<p>THE THERMOSTAP IN THIS DESIGN CONNECTS DIRECTLY TO 220 VOLT MAINS POWER.</p> 
+
+<p>Physical contact with any component of the design can cause electrocution resulting in serious INJURY, or DEATH.</p> 
+
+<p>DO NOT reproduce this design without appropriate knowledge of, and protective measures for working with mains power.</p>
+
+<p>Disconnect power before handling the material or manipulating the connections. Ensure that material is properly grounded and isolated. Always work with another adult present in case of an emergency.</p>
 
 
 >> Note: Before starting, learn how TapNLink and the associated tools work in this [Getting Started](http://docs.iotize.com/GettingStarted/).
@@ -17,22 +29,18 @@ The project has 4 folders:
 
 The main components used in this project are:
 - TapNLink (the communication module), [it's here](https://www.digikey.fr/product-detail/fr/iotize/TNL-FIT203/2087-TNL-FIT203-ND/12397002).
-- BL0937 (the power sensor), [it's here](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210218083908&isPremium=y&SearchText=bl0937).
-- the plastic enclosure, [it's here](https://www.aliexpress.com/item/4000287507400.html?spm=a2g0o.productlist.0.0.309d44dfcbyy66&algo_pvid=642dec70-5635-4468-b159-30d6b13c2028&algo_expid=642dec70-5635-4468-b159-30d6b13c2028-3&btsid=2100bb5116136655014285201e8088&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_).
 
 >> This example shown here of this project uses the [REva evaluation board](https://www.raisonance.com/reva.html) example, although, this board is not required.
 
 ## How it Works
 
 <p align="center">
-<img src="https://github.com/iotize-sas/Open-Projects/blob/main/ThermosTap-demo/doc/images/picture_1.jpg" width="500">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/ThermosTap-demo/doc/images/picture_1.png" width="500">
 </p>
 <p align="center">
     <em>The hardware setup</em>
 </p>
-<p>
-A temperature sensor is connected to IN1 on the REva. The IN1 output is connected to POT to recover the value on pin PB3. The LED switch is defined by the pin A2. This is directly connected to LED2.
-</p>
+
 
 ## Overview
 
@@ -41,6 +49,15 @@ A temperature sensor is connected to IN1 on the REva. The IN1 output is connecte
 </p>
 <p align="center">
     <em>General view of the project</em>
+</p>
+
+## Schematic 
+
+<p align="center">
+<img src="https://github.com/iotize-sas/Open-Projects/blob/main/ThermosTap-demo/doc/images/diagram.png">
+</p>
+<p align="center">
+    <em>Electrical diagram</em>
 </p>
 
 ## Java code
