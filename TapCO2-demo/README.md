@@ -8,10 +8,6 @@ This project creates a connected CO2 sensor using a TapNLink module. The project
 
 ## *** DISCLAIMER ***
 
-<p>This electrical project is provided ONLY for testing and experimentation by qualified persons in electronics design labs.</p>
-
-<p>The person reproducing this example accepts full responsibility to any injury, or damage that may result.</p>
-
 <p>This example is not a product. This example is not Certified, Qualified, Approved, or Recommended for any commercial use, or for any use by the general public.</p>
 
 >> Note: Before starting, learn how TapNLink and the associated tools work in this [Getting Started](http://docs.iotize.com/GettingStarted/).
