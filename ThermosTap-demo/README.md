@@ -55,6 +55,14 @@ The main components used in this project are:
 
 ## Schematic 
 
+The schematic below contains 3 blocks that can be used to control the temperature:
+
+1. a simple relay that is supposed to start/stop heating.
+2. an OT+ (opentherm) interface,
+3. a 'pilot wire' that is an interface very popular on the French market (and almost unknown everywhere else).
+
+In the application below, only the 'simple relay' block will be used.
+
 <p align="center">
 <img src="https://github.com/iotize-sas/Open-Projects/blob/main/ThermosTap-demo/doc/images/diagram.png">
 </p>
