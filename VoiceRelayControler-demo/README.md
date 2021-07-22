@@ -48,8 +48,6 @@ Inside the plastic casing, the TapNLink module is linked with a ribbon cable to 
 The relay element switches the current to the device on and off. 
 </p>
 
-The red cable will be replaced by a button, to ask if access is possible.
-
 ## Overview
 
 <p align="center">
