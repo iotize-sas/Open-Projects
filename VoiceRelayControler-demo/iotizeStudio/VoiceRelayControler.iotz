@@ -1,0 +1,111 @@
+﻿<?xml version="1.0"?>
+<IOTizeConfiguration Version="2.9.0" Lock="24">
+<GUI_Environment StoreVarInfo="false" UseInternalJVM="true" Locked="false" Autoincrement="false" AutoSyncTime="true" DocVerboseLevel="3" DocLogVerboseLevel="3" DocLogFileName="" AdminPWD="admin" SmartPhoneStoragePath="" />
+<GUI_XAppConfig useServer="yes">
+<GUI_app path="" version="0.0.1" cloudProjectId="" />
+<GUI_layout col="2" mode="One page per profile" />
+<GUI_logo image="" />
+<GUI_splashScreen image="" />
+<GUI_appTheme primary="3703039" secondary="840168" tertiary="7357695" />
+<GUI_hostProtocols>
+<GUI_nfc enabled="true" energyHarvesting="false" />
+<GUI_ble enabled="true" />
+<GUI_socket enabled="false" rememberLastDevices="true" />
+<GUI_mqtt enabled="false" rememberLastDevices="true" />
+</GUI_hostProtocols>
+<GUI_pages>
+<GUI_TapInfoPage enabled="true" pageTitle="Device Info">
+<GUI_infosn enabled="true" />
+<GUI_infosn />
+<GUI_infofwver enabled="true" />
+<GUI_infofwver />
+<GUI_infocfgver enabled="true" />
+<GUI_infocfgver />
+<GUI_infoappname enabled="true" />
+<GUI_infoappname />
+<items key="serialNumber" />
+<items key="tapFirmwareVersion" />
+<items key="configVersion" />
+<items key="appName" />
+</GUI_TapInfoPage>
+<GUI_AboutPage enabled="false" pageTitle="About" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" showAppVersion="No" developerName="" appDescription="" />
+<GUI_TargetProtocolConfPage enabled="false" pageTitle="Target Protocol Settings" />
+<GUI_TapSupervisionPage enabled="false" pageTitle="Administration" />
+<GUI_TapConnectivitySettingsPage enabled="true" pageTitle="Connectivity settings" />
+</GUI_pages>
+</GUI_XAppConfig>
+<IOTizeApp Name="AlexaTestLed" ProductCode="AlexaTestLed" DevIoTizeSN="" InterfaceLock="24" Scram_Hash_It="5000" GUI_Path="" GUI_WebSpePath="" Path="" GUI_TargetType="0" TargetProtocol="DirectIO" GUI_S3Pmode="1" S3Pmode="1" S3PDelay="1" GUI_Modbus_GenerateAddr="yes" TargetProtocolConfDataLen="8" TargetProtocolConfData="0001000a01002580" WebLink="https://www.iotize.com" AAR="" HostProtocol="FFFF" Firmware="1.0.0" Config="1.0.0" NFCPairingMandatory="No" BLEPairingRequest="0" NFCInterruptionLock="0" NFCLogin="0" LowPowerLevel="0" LowPowerHostTimeout="30" JVM_Custom_Code="" JVM_CodeSize="10" JVM_HeapSize="32" JVM_StackSize="32" JVM_HandleSize="128" MBS_Com_Channel="0" MBSProtocolConfDataLen="8" MBSProtocolConfData="0001000a01002580">
+<USB_Aliases />
+<LoRa_Info LoRaMode="0" />
+<USB_Aliases />
+<WIFI_Info Network="Network" ModuleSSID="" Module_AP_SSID="TAP" Module_AP_WEPKey="ABCD1234" ModuleWEPKey="" Cloud_Publish_Topic="" Cloud_Subscribe_Topic="" MQTTRelay_URL="broker.hivemq.com" MQTTRelay_Client_ID="" MQTTRelay_Broker_Login="" MQTTRelay_Passwd="" MQTTRelay_Service="1883" Broker_Certificate="" MQTTRelay_Topic_Prefix="IOTIZE_DEV/{SerialNumber}_DEV/{NetKeyHash}" ModuleIPAddress="0.0.0.0" ModuleIPGateway="0.0.0.0" ModuleIPMask="0.0.0.0" Wifi_SSID_Hidden="0" Wifi_WEPKey_Hidden="1" />
+<GUI_Reader Name="" />
+<GUI_ConnectionMode Value="2" />
+<GUI_CryptoMode Value="100" />
+<GUI_MQTT_Info>
+<GUI_MQTTCloudEnable Value="1" />
+<GUI_DevMQTTHostName Name="broker.hivemq.com" />
+<GUI_DevMQTTServiceName Name="1883" />
+<GUI_DevMQTT_UID Name="" />
+<GUI_DevMQTT_ClientID Name="123456" />
+<GUI_DevMQTT_Certificate Name="" />
+<GUI_DevMQTT_PrivateKey Name="" />
+<GUI_DevMQTT_Login Name="" />
+<GUI_DevMQTT_Password Name="" />
+<GUI_DevMQTT_BrokerCertificate Name="" />
+<GUI_DevMQTTSelection Value="false" />
+<GUI_DevMQTTTopicAnswer Name="IOTIZE_DEV/{SerialNumber}_DEV/{NetKeyHash}/ANSWER" />
+<GUI_DevMQTTTopicPrefix Name="IOTIZE_DEV/{SerialNumber}_DEV/{NetKeyHash}/COMMAND" />
+<GUI_DevMQTTIBMAPIKey Name="" />
+<GUI_DevMQTTIBMAPIToken Name="" />
+</GUI_MQTT_Info>
+<GUI_DevMQTTHostName Name="broker.hivemq.com" />
+<GUI_DevMQTTSelection Value="false" />
+<GUI_DevMQTTServiceName Name="1883" />
+<GUI_DevMQTT_UID Name="" />
+<GUI_DevSocketHostName Name="" />
+<GUI_DevSocketServiceName Name="2000" />
+<GUI_DevBLEDeviceName Name="" />
+<GUI_DevUARTCOM Port="COM1" />
+<GUI_DevNetkey Name="testnetkey" />
+<GUI_ElfFile PathName="" Description="" />
+<GUI_SVDFile PathName="" />
+<GUI_AppDevServer port="4210" />
+<GUI_HTML Generate="yes" Prefix="HTML_TEST" Home="IoTize00610000101E.html" />
+<GUI_CSSAuto Auto="yes" />
+<GUI_CSSFile PathName="" />
+<GUI_htmlHideLogin Hide="no" />
+<GUI_htmlDigitsFloat Value="3" />
+<CloudServices CloudEnable="2" CloudSendConf="Yes" CloudMqttPeriod="0" CloudUserId="0">
+<CloudHostName Name="broker.hivemq.com" />
+<CloudServiceName Name="1883" />
+<CloudMQTT_UID Name="" />
+<ProductKey_UID Name="" />
+<CloudMQTT_USERNAME Name="" />
+<IBMOrgID Name="" />
+<IBMDeviceType Name="" />
+<IBMDeviceID Name="" />
+<IBMDeviceToken Name="" />
+<IBMRootCertificate />
+<AWSCustomEndpoint Name="" />
+<AWSThingName Name="" />
+<DeviceCertificate />
+<DevicePrivateKey />
+<AWSRootCertificate />
+</CloudServices>
+</IOTizeApp>
+<IOTizeProfile GroupId="0" Id="0" Name="anonymous" LifeTime="300" Pwd="" GUI_Description="Guest without login/password. This profile is predefined in IoTize." GUI_BackColor="662314" GUI_ManagedByApp="Yes" GUI_AppPageTitle="" GUI_HTMLHome="" />
+<IOTizeProfile GroupId="65535" Id="65535" Name="admin" LifeTime="300" Pwd="0155AFFC023AFF6882F56A4E0D9C5466" Scram_Pwd="EC1E50ABB1E3092A759AF67C2E4D65084371DDC578A3A0AD98C5872AD41901F54AEB1D22" Scram_User_Salt="1256922402" GUI_Description="Administrator (admin) login. This profile is predefined in IoTize, with default password admin" GUI_BackColor="736057" GUI_ManagedByApp="Yes" GUI_AppPageTitle="" GUI_HTMLHome="" />
+<IOTizeProfile GroupId="65534" Id="65534" Name="supervisor" LifeTime="300" Pwd="99C243D5F82EB712C281D5FFE7D12097" Scram_Pwd="A08297F6457B9541863096F44B3B684BB60EA9B7B7C17A44027986DDA3335E97305D4366" Scram_User_Salt="811418470" GUI_Description="The supervisor is allowed to modify the login/password of the users, with default password supervisor" GUI_BackColor="3026478" GUI_ManagedByApp="Yes" GUI_AppPageTitle="" GUI_HTMLHome="" />
+<IOTizeBundle Id="1" GUI_Name="Main" GUI_Description="" DataLogPeriod="0x00000000" GUI_MonitoringPeriod="500">
+<IOTizeVariable Id="2" GUI_Name="read" Unit="1" Quantity="1" IsInTap="1" IsInTapVolatile="1" GUI_Submit="No" GUI_Display="Yes">
+<XAppRender />
+</IOTizeVariable>
+<IOTizeVariable Id="3" GUI_Name="commandCounter" Unit="3" Quantity="1" IsInTap="1" InTap_InitialValueString="0x00000000;" GUI_Submit="No" GUI_Display="Yes">
+<XAppRender />
+</IOTizeVariable>
+<IOTizeAccessControl>
+<IOTizeACL ProfileName="anonymous" Rights="read,write" />
+</IOTizeAccessControl>
+</IOTizeBundle>
+</IOTizeConfiguration>

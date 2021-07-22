@@ -1,0 +1,122 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "go tap and link",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StartRelayIntent",
+                    "slots": [],
+                    "samples": [
+                        "turn on",
+                        "active"
+                    ]
+                },
+                {
+                    "name": "StartRelayWithTimerIntent",
+                    "slots": [
+                        {
+                            "name": "seconds",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "minutes",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "hours",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Start {hours} hours",
+                        "Start {minutes} minutes",
+                        "Start {seconds} seconds",
+                        "Starts the relay {minutes} minutes",
+                        "Starts the relay {seconds} seconds",
+                        "Starts the relay {hours} hours",
+                        "Starts the relay during {hours} hours",
+                        "Starts the relay during {minutes} minutes",
+                        "Starts the relay during {seconds} seconds"
+                    ]
+                },
+                {
+                    "name": "AskTimerIntent",
+                    "slots": [],
+                    "samples": [
+                        "How many times remaining",
+                        "How many time",
+                        "remaining timer time",
+                        "remaining time",
+                        "time left",
+                        "time remaining"
+                    ]
+                },
+                {
+                    "name": "IncreaseTimerIntent",
+                    "slots": [
+                        {
+                            "name": "secondsTimer",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "minutesTimer",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "hoursTimer",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "adds {hoursTimer} hours to the timer",
+                        "adds {secondsTimer} seconds to the timer",
+                        "adds  {minutesTimer} minutes to the timer",
+                        "increases duration by {hoursTimer} hours",
+                        "increases duration by {minutesTimer} minutes",
+                        "increases duration by {secondsTimer} seconds"
+                    ]
+                },
+                {
+                    "name": "CommandCounterIntent",
+                    "slots": [],
+                    "samples": [
+                        "How many orders",
+                        "How many orders have been issued"
+                    ]
+                },
+                {
+                    "name": "DisableRelayIntent",
+                    "slots": [],
+                    "samples": [
+                        "Turn off",
+                        "Stop relay",
+                        "Disable relay",
+                        "Disable the relay",
+                        "Stop the relay"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
