@@ -2,17 +2,8 @@ import com.iotize.jvm.*;
 import com.iotize.jvm.hal.*;
 
 
-/**
- * This java class is intended to manage the values recovered by the device to serve as WattTap.
- * We count pulses via a Pin that define the active power consumption of the connected device.
- * With the recovered data the consumption is calculated.
- */
 public class TestAlexaTap {
 
-    /**
-     * Class constructor with instantiation of the MQTT topic
-     * Then send mqtt message for init class done.
-     */
     TestAlexaTap() {
         system.subscribeMQTT("alexa");
     }
