@@ -1,4 +1,4 @@
-This project creates a simple connected relay using a TapNLink module and an app for access code entry. The project uses TapNLink's embedded Java Virtual Machine (JVM) as the application processor. The JVM runs a simple Java program and controls the access to a connected device such as a door lock.
+This project creates a simple connected relay using a TapNLink module and an Amazon echo dot for access to relay controler. The project uses TapNLink's embedded Java Virtual Machine (JVM) as the application processor. The JVM runs a simple Java program and controls the access to a connected device such as a door lock.
 
 >> Note: Before starting, learn how TapNLink and the associated tools work in this [Getting Started](http://docs.iotize.com/GettingStarted/).
 
