@@ -89,13 +89,6 @@ The `Java` code embedded in the `JVM` allows us to do an `onCheck()` call each t
 - Because this app has not been published on app stores, you have to install it manually. See how this is done [here](https://github.com/iotize-sas/DigiTapLock-demo/app_generated/DigiTapLock.apk).
 - After your circuit is properly connected, and your TapNLink is configured, launch the mobile app. The fastest way is to approach your mobile phone (with NFC enabled) to the plastic casing. NFC will launch the app and connect the mobile to the TapNLink automatically.  
 
-<p align="center">
-<img src="https://github.com/iotize-sas/Open-Projects/blob/main/DigiTapLock-demo/doc/images/picture_end.jpg" width="400">
-</p>
-<p align="center">
-   <em>DigiTapLock connected to a device</em>
-</p>
-
 - With `TapNLink`, you can now monitor and control access to your device.
 
 <p align="center">
