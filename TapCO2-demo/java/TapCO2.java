@@ -154,7 +154,11 @@ public class TapCO2 {
                 lastHours_varInTap.setValue(lastHours);
 
                 if(currentDay != oldDay) {
-                    lastDays[oldDay - 1] = currentDayAverage_varInTap.getValue();
+                    if(currentDay == 0) {
+                        lastDays[lastDays.length - 1] = currentDayAverage_varInTap.getValue();
+                    } else {
+                        lastDays[currentDay - 1] = currentDayAverage_varInTap.getValue();
+                    }
                     lastDays_varInTap.setValue(lastDays);
                     loopCount[2] = 0;
                 }
