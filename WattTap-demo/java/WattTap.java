@@ -275,9 +275,14 @@ private int startPauseTime = 0;
                 lastHoursConsumption[oldConsumptionHour] = consumptionOfTheHour;
                 // Check is the current day is already the same has last check call.
                 if(oldConsumptionDay != currentDay) {
-	      lastDaysConsumption[oldConsumptionDay - 1] = consumptionOfTheDay;
+			if(oldConsumptionDay != 0) {
+ 				lastDaysConsumption[oldConsumptionDay - 1] = consumptionOfTheDay;
+			}else {
+				lastDaysConsumption[lastDaysConsumption.length - 1] =  consumptionOfTheDay;
+			}
+	     
                     /**
-                    * If the month has changed then the previous month�s consumption is updated in the table
+                    * If the month has changed then the previous monthï¿½s consumption is updated in the table
                     */
                    lastMonthsConsumption[oldconsumptionMonth - 1] += consumptionOfTheDay;
 
