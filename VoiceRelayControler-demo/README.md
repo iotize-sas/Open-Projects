@@ -2,7 +2,7 @@ This project creates a simple connected relay using a TapNLink module and an Ama
 
 >> Note: Before starting, learn how TapNLink and the associated tools work in this [Getting Started](http://docs.iotize.com/GettingStarted/).
 
-This project is [on GitHub](https://github.com/iotize-sas/VoiceRelayControler-demo) !
+This project is [on GitHub](https://github.com/iotize-sas/Open-Projects/tree/main/VoiceRelayControler-demo) !
 
 The project has 4 folders:
 

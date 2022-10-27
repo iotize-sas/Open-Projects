@@ -2,7 +2,7 @@ This project creates a simple connected relay using a TapNLink module and an app
 
 >> Note: Before starting, learn how TapNLink and the associated tools work in this [Getting Started](http://docs.iotize.com/GettingStarted/).
 
-This project is [on GitHub](https://github.com/iotize-sas/DigiTapLock-demo) !
+This project is [on GitHub](https://github.com/iotize-sas/Open-Projects/tree/main/DigiTapLock-demo) !
 
 The project has 4 folders:
 
@@ -72,7 +72,7 @@ The red cable will be replaced by a button, to ask if access is possible.
 
 The `Java` code embedded in the `JVM` allows us to do an `onCheck()` call each time interval (This is defined in the `TapNLinkVar` construct). With this `onCheck()` method, by verifying that the provided `id` corresponds to the desired `id`, we will be able to perform data recovery tasks. The `TapNLinkVar` value also updates or sends an MQTT message.
 
-- For more `java` code information, [click here](https://github.com/iotize-sas/DigiTapLock-demo/doc/Java_code/Java_code.md)!
+- For more `java` code information, [click here](https://github.com/iotize-sas/Open-Projects/blob/main/DigiTapLock-demo/doc/Java_code/Java_code.md)!
 
 ## IoTize Studio
 
@@ -86,7 +86,7 @@ The `Java` code embedded in the `JVM` allows us to do an `onCheck()` call each t
 
 ## Launching the 'DigiTapLock' App
 
-- Because this app has not been published on app stores, you have to install it manually. See how this is done [here](https://github.com/iotize-sas/DigiTapLock-demo/app_generated/DigiTapLock.apk).
+- Because this app has not been published on app stores, you have to install it manually. See how this is done [here](https://github.com/iotize-sas/Open-Projects/raw/main/DigiTapLock-demo/app_generated/DigiTapLock.apk).
 - After your circuit is properly connected, and your TapNLink is configured, launch the mobile app. The fastest way is to approach your mobile phone (with NFC enabled) to the plastic casing. NFC will launch the app and connect the mobile to the TapNLink automatically.  
 
 - With `TapNLink`, you can now monitor and control access to your device.

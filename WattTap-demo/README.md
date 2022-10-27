@@ -223,4 +223,4 @@ When everything is correctly set up, data messages are received for the AWS Thin
 
 ## More Information
 
-- For more information about the creation of this project, [click here](https://github.com/iotize-sas/Open-Projects/tree/main/WattTap-demo/doc/WattTapDemo.pdf).
+- For more information about the creation of this project, [click here](https://github.com/iotize-sas/Open-Projects/raw/main/WattTap-demo/doc/WattTapDemo.pdf).
